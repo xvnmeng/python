@@ -6,11 +6,10 @@
 import re
 from typing import Dict, List, Any, Union
 from selenium import webdriver
-from PIL import Image
+# from PIL import Image
 import pytesseract
 # import os,time
 import time
-
 
 # # chromedriver = "D:\Program Files\Anaconda3\selenium\webdriver\chromedriver.exe" #这里写本地的chromedriver 的所在路径
 # # os.environ["webdriver.Chrome.driver"] = chromedriver #调用chrome浏览器
@@ -45,15 +44,9 @@ import time
 # #打开保存的验证码图片
 
 
-
-
-
-# 打开本地的验证码进行识别测试
-image = Image.open("a.png")
-#图片转换成字符
-print(image)
-code = pytesseract.image_to_string()
-vcode = pytesseract.image_to_string(image)  ## 识别的时候没有安装包
+# image = Image.open(r"D:\code\python\a.png")
+# print(image)
+# vcode = pytesseract.image_to_string(image)  ## 识别的时候没有安装包
 # vcode = pytesseract.image_to_string(image)
 # print(vcode)
 # #填充用户名 密码 验证码
@@ -63,3 +56,60 @@ vcode = pytesseract.image_to_string(image)  ## 识别的时候没有安装包
 # #点击登录
 # driver.find_element_by_id("loginBtn").click()
 # driver.quit(2)
+
+
+# from PIL import Image as myImage
+# import pytesseract
+#
+# pytesseract.pytesseract.tesseract_cmd = 'c:/Program Files (x86)/Tesseract-OCR/tesseract.exe'
+# tessdata_dir_config = '--tessdata-dir "c:/Program Files (x86)/Tesseract-OCR/tessdata"'
+#
+# text = ''
+#
+# img = myImage.open(r'D:\code\python\a.png')
+# # img.load()
+# text = pytesseract.image_to_string(img, lang='eng', config=tessdata_dir_config)
+#
+#
+# image = myImage.open(r"D:\code\python\a.png")
+# print(image)
+# vcode = pytesseract.image_to_string(image)  ## 识别的时候没有安装包
+# print(text)
+# print('aaa   %s ' % vcode)
+
+#
+# import pytesseract
+# from PIL import Image
+# # 访问相对路径如下图，绝对路径是下一行代码
+# image = Image.open(r'D:\2.jpg')
+#
+# pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract.exe'
+#
+# tessdata_dir_config = '--tessdata-dir "C:/Program Files (x86)/Tesseract-OCR/tessdata"'
+#
+# code = pytesseract.image_to_string(image)
+#
+# print(code)
+#
+
+
+
+import csv
+
+csv_file1=open(r'D:\code\python\test_selenium_ecshop\data_file\username.csv', mode='r', encoding='utf8')
+csv_data1=csv.reader(csv_file1)
+for i in csv_data1:
+    user_dict={
+        'year':i[0],
+        'month':i[1],
+        'dav':i[2],
+        'email':i[3],
+        'msn':i[4],
+        'qq':i[5],
+        'office':i[6],
+        'family':i[7],
+        'phone':i[8],
+        'answer':i[9]
+    }
+    print(user_dict)
+    # 1999,9,1,wadf@qq.com,ada@sd.com,2131321321,12341234,123412341,124123412,kk

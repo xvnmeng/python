@@ -20,4 +20,7 @@ class SubPage01(BasePage):
     # 自定义方法
     # 安全退出
     def safe_quit(self):
-        self.driver.find_elements('xpath', '/html/body/div[7]/div[1]/div/div/div/div/a[14]/img')
+        self.driver.find_elements('xpath', '/html/body/div[7]/div[1]/div/div/div/div/a[14]/img').click()
+
+
+

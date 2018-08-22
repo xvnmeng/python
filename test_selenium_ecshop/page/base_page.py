@@ -20,16 +20,16 @@ class BasePage(object):
         self.driver.find_elements('xpath', '/html/body/div[1]/div[2]/ul/li[1]/font/a[1]/img').click()
         time.sleep(2)
 
-    def test_login(self):
+    def test_login(self,username,passwd):
         # 定位用户名输入框传值
-        self.driver.find_elements('name', 'username').send_keys('xvnmeng')
+        self.driver.find_elements('name', 'username').send_keys(username)
         # 定位密码传值
-        self.driver.find_elements('name', 'password').send_keys('123456')
+        self.driver.find_elements('name', 'password').send_keys(passwd)
         # 勾选保存密码
         self.driver.find_elements('id', 'remember').click()
         # 定位点击登录    submit
         self.driver.find_elements('name', 'submit').click()
-        time.sleep(5)
+        time.sleep(3)
 
     def register_click(self):
         # 点击注册按钮

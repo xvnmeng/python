@@ -4,8 +4,8 @@
 @Author:xvnmeng
 '''
 import unittest
-from selenium import webdriver
-import time
+from time import sleep
+import csv
 
 # 模块化的调用
 from auto_driveer.auto_driver_001 import AutoDriver001
@@ -25,11 +25,35 @@ class TestCase001Login(unittest.TestCase):
 
     def tearDown(self):
         # 退出浏览器
-        time.sleep(7)
+        sleep(7)
         self.driver.quit_browser()
 
     def testLogin(self):
         # 打开网址
         self.driver.open_url('/')
-        # 点击登录按钮
-        self.s.login_click()
+        sleep(1)
+        # 通过读取文件来登录多个账号
+        file_o = open(r'D:\code\python\test_selenium_ecshop\data_file\username.csv', mode='r', encoding='utf8')
+        data_r = csv.reader(file_o)
+        for i in data_r:
+            login_dict = {
+                'username': i[0],
+                'passwd': i[1]
+            }
+            # print(dict)
+
+            # 点击登录按钮
+            self.s.login_click()
+            sleep(1)
+            self.s.test_login(login_dict['username'], login_dict['passwd'])
+            # 断言的 期望值
+            expect_text = login_dict['username']
+            # 实际值
+            actual_test = self.driver.find_elements('xpath', '/html/body/div[1]/div[2]/ul/li[1]/font/font/font').text
+            # 开始断言
+            self.assertEqual(expect_text, actual_test, '登录失败')
+            # 点击用户中心
+            self.s.user_central_click()
+            # 安全退出
+            self.s.safe_quit()
+            sleep(2)
