@@ -99,7 +99,11 @@ def send_mail(file_new):
 if __name__ == '__main__':
 
     # 指定测试用例目录
-    test_dir_login = r'D:\code\python\test_selenium_ecshop\test_case\test_test'
+    # 在test_case的目录中，再建立一个单独文件夹测试
+    # test_dir_login = r'D:\code\python\test_selenium_ecshop\test_case\test_test'
+
+    # 测试test_case的文件    此文件下的都会执行，包括自己文件夹
+    test_dir_login = r'D:\code\python\test_selenium_ecshop\test_case'
 
 
     # 指定测试报告目录

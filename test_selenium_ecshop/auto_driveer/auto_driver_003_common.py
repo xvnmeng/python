@@ -140,8 +140,7 @@ class Common(object):
         Select(self.driver.find_elements('name', 'birthdayDay')).select_by_value('10')
         # 选择性别
         self.driver.find_elements('name', 'sex').click()
-        # 先清空再修改
-        # 邮箱
+        # 先清空再修改 # 邮箱
         self.driver.find_elements('name', 'email').clear()
         self.driver.find_elements('name', 'email').send_keys('yyy@qq.com')
         # msn  qq  电话  家庭电话   手机

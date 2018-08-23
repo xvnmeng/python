@@ -3,63 +3,83 @@
 @Time:2018/8/17 14:16
 @Author:xvnmeng
 '''
-# 导包
-from selenium import webdriver
-import time
-from selenium.webdriver.support.select import Select
+import unittest
+from time import sleep
+import csv
+
+from auto_driveer.auto_driver_001 import AutoDriver001
+from page.user_central_001 import UserCentral01
+from page.user_message_002 import UserMessage01
 
 
-# 浏览器对象实例化
-driver = webdriver.Firefox()
-driver.maximize_window()
-# 打开网址
-driver.get("http://localhost/upload/index.php")
-time.sleep(1)
-driver.find_element_by_xpath('/html/body/div[1]/div[2]/ul/li[1]/font/a[1]/img').click()
-# 定位用户名输入框传值
-driver.find_element_by_name('username').send_keys('xvnmeng001')
-# 定位密码传值
-driver.find_element_by_name('password').send_keys('123456')
-# 勾选保存密码
-driver.find_element_by_id('remember').click()
-# 定位点击登录
-driver.find_element_by_name('submit').click()
-time.sleep(1)
-driver.find_element_by_link_text('用户中心').click()
-time.sleep(1)
-driver.find_element_by_link_text('用户信息').click()
-time.sleep(1)
-# 进入信息页面开始修改
-Select(driver.find_element_by_name('birthdayYear')).select_by_value('2018')
-Select(driver.find_element_by_name('birthdayMonth')).select_by_value('10')
-Select(driver.find_element_by_name('birthdayDay')).select_by_value('10')
-# 选择性别
-driver.find_element_by_name('sex').click()
-# 先清空再修改
-# 邮箱
-driver.find_element_by_name('email').clear()
-driver.find_element_by_name('email').send_keys('yyy@qq.com')
-# msn  qq  电话  家庭电话   手机
-driver.find_element_by_name('extend_field1').clear()
-driver.find_element_by_name('extend_field1').send_keys('yyy@qq.com')
+class TestCase001Login(unittest.TestCase):
+    # 前置条件
+    def setUp(self):
+        # 继承之后，通过driver调用AutoDriver001的函数
+        self.driver = AutoDriver001()
+        # s 继承了基础页面和当前子页面的属性   通过 s 可以调用  和 sub_page 的函数
+        self.s = UserCentral01(self.driver)
+        # 用户信息类的继承
+        self.driver_user = UserMessage01(self.driver)
 
-driver.find_element_by_name('extend_field2').clear()
-driver.find_element_by_name('extend_field2').send_keys('123456578')
+        # 最大化窗口
+        self.driver.max_window()
 
-driver.find_element_by_name('extend_field3').clear()
-driver.find_element_by_name('extend_field3').send_keys('075588888899')
+    def tearDown(self):
+        # 退出浏览器
+        sleep(2)
+        self.driver.quit_browser()
 
-driver.find_element_by_name('extend_field4').clear()
-driver.find_element_by_name('extend_field4').send_keys('075588889988')
+    def testUserMessage(self):
+        '''
+        这是一个修改用户信息的测试。
+        '''
 
-driver.find_element_by_name('extend_field5').clear()
-driver.find_element_by_name('extend_field5').send_keys('13833885453')
-# 密保
-Select(driver.find_element_by_name('sel_question')).select_by_value('motto')
-# 清空输入
-driver.find_element_by_name('passwd_answer').clear()
-driver.find_element_by_name('passwd_answer').send_keys('人生苦短，我用python')
-# 提交
-# driver.find_element_by_name('submit').click()
-# 退出
-# driver.quit()
+        # 登录
+        self.driver.open_url('/')
+        sleep(1)
+        # 通过读取指定行 用指定用户名登录
+        self.s.login_click()
+        sleep(1)
+        self.s.login('xvnmeng1', '123456')
+        self.s.submit_click()
+        sleep(1)
+
+        # 点击用户中心
+        self.s.user_central_click()
+        sleep(1)
+        # 点击用户信息
+        self.s.user_message_click()
+        sleep(1)
+
+        # 读取用户信息文件
+        file_o = open(r'D:\code\python\test_selenium_ecshop\data\user_message.csv', mode='r', encoding='utf8')
+        data_r = csv.reader(file_o)
+        for i in data_r:
+            dict = {
+                'year': i[0],
+                'month': i[1],
+                'day': i[2],
+                'email': i[3],
+                'msn': i[4],
+                'qq': i[5],
+                'tel': i[6],
+                'home_tel': i[7],
+                'phone': i[8],
+                'security': i[9],
+                'security_answer': i[10]
+            }
+            # 修改用户信息
+            self.driver_user.modify_user_message(dict['year'], dict['month'], dict['day'],dict['email'],
+                                                 dict['msn'], dict['qq'], dict['tel'], dict['home_tel'],
+                                                 dict['phone'], dict['security'], dict['security_answer'])
+            # 点击提交修改
+            self.driver.find_elements('xpath', '/html/body/div[7]/div[2]/div/div/div/form[1]/table/tbody/tr[11]/td/input[2]').click()
+        # 关闭文件
+        file_o.close()
+
+        sleep(1)
+        # 点击用户中心
+        self.s.user_central_click()
+        # 安全退出
+        self.s.safe_quit()
