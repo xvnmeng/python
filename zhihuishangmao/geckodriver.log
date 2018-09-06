@@ -1,0 +1,1460 @@
+1536204954973	geckodriver	INFO	geckodriver 0.21.0
+1536204954998	geckodriver	INFO	Listening on 127.0.0.1:6425
+1536204957997	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\THINK\\AppData\\Local\\Temp\\rust_mozprofile.Pu8YhjHcBp1d"
+1536204959931	Marionette	DEBUG	Received observer notification profile-after-change
+1536204960253	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1536204960339	Marionette	DEBUG	Received observer notification command-line-startup
+1536204960341	Marionette	DEBUG	Received observer notification nsPref:changed
+1536204960341	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1536204961279	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1536204963760	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1536204963761	Marionette	DEBUG	Waiting for delayed startup...
+1536204963997	Marionette	DEBUG	Waiting for startup tests...
+1536204963997	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1536204963998	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1536204963999	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1536204963999	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1536204963999	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1536204964000	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1536204964000	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1536204964001	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1536204964001	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1536204964001	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1536204964001	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1536204964002	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1536204964002	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1536204964002	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1536204964002	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1536204964002	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1536204964002	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1536204964003	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1536204964003	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1536204964003	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1536204964003	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1536204964003	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1536204964003	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1536204964004	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1536204964004	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1536204964005	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1536204964092	Marionette	INFO	Listening on port 6434
+1536204964093	Marionette	DEBUG	Remote service is active
+1536204964424	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:6452
+1536204964427	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1536204964428	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536204964492	Marionette	DEBUG	[6442450945] Frame script loaded
+1536204964505	Marionette	DEBUG	[6442450945] Frame script registered
+1536204964508	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"064190b0-19bb-46da-b965-a414dc588ec3","capabilities":{"browserName":"firefox","browserVersion":"63.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1536204964513	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1"}]
+1536204964530	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536204964672	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536204965677	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536204966397	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536204966399	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1536204967404	Marionette	TRACE	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":".industry-01"}]
+1536204967408	Marionette	TRACE	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7e8fbab2-441d-4a87-83da-9d6aba1beab2"}}]
+1536204967411	Marionette	TRACE	0 -> [0,4,"WebDriver:ElementClick",{"id":"7e8fbab2-441d-4a87-83da-9d6aba1beab2"}]
+1536204967428	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536204967609	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536204967610	Marionette	DEBUG	[6442450945] Received DOM event unload for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536204967782	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536204967806	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536204967807	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536204967807	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536204967917	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536204967918	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1536204968921	Marionette	TRACE	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":".role-01"}]
+1536204968923	Marionette	TRACE	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"010ea95a-8bee-4a4b-8d57-188c94615ed3"}}]
+1536204968926	Marionette	TRACE	0 -> [0,6,"WebDriver:ElementClick",{"id":"010ea95a-8bee-4a4b-8d57-188c94615ed3"}]
+1536204968941	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536204969437	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536204969437	Marionette	DEBUG	[6442450945] Received DOM event unload for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+JavaScript error: http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo, line 1508: TypeError: Report.Register is not a function
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536204969858	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536204971173	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo
+1536204971174	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1536204971181	Marionette	TRACE	0 -> [0,7,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/div[25]/div/div/div/a"}]
+1536204971189	Marionette	TRACE	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"494512c4-c649-4b1f-a694-f2636031eec9"}}]
+1536204971198	Marionette	TRACE	0 -> [0,8,"WebDriver:ElementClick",{"id":"494512c4-c649-4b1f-a694-f2636031eec9"}]
+1536204971470	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536204971471	Marionette	TRACE	0 <- [1,8,null,{"value":null}]
+1536204972474	Marionette	TRACE	0 -> [0,9,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/table/tbody/tr/td[1]/div/ul/li[3]/a"}]
+1536204972487	Marionette	TRACE	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"b68498b8-27ea-40f2-acdd-b239d7172f82"}}]
+1536204972490	Marionette	TRACE	0 -> [0,10,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":250,"origin":{"element-6066-11e4-a52e-4f735466cecf":"b68 ... "parameters":{"pointerType":"mouse"},"type":"pointer"},{"actions":[{"duration":0,"type":"pause"}],"id":"key","type":"key"}]}]
+1536204972751	Marionette	TRACE	0 <- [1,10,null,{"value":null}]
+1536204973756	Marionette	TRACE	0 -> [0,11,"WebDriver:FindElement",{"using":"css selector","value":"#secondmenu3 > ul:nth-child(1) > li:nth-child(2) > a:nth-child(2)"}]
+1536204973759	Marionette	TRACE	0 <- [1,11,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"48932323-e0a3-47df-bc80-3a33cb5b5dca"}}]
+1536204973763	Marionette	TRACE	0 -> [0,12,"WebDriver:ElementClick",{"id":"48932323-e0a3-47df-bc80-3a33cb5b5dca"}]
+1536204974245	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536204974245	Marionette	TRACE	0 <- [1,12,null,{"value":null}]
+1536204979249	Marionette	TRACE	0 -> [0,13,"WebDriver:FindElement",{"using":"xpath","value":"//iframe[contains(@src,'ClientInfo')]"}]
+1536204979252	Marionette	TRACE	0 <- [1,13,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e7fb2bfb-f3b1-44d6-84dd-9a7c2e4f0035"}}]
+1536204979255	Marionette	TRACE	0 -> [0,14,"WebDriver:SwitchToFrame",{"element":"e7fb2bfb-f3b1-44d6-84dd-9a7c2e4f0035"}]
+1536204979260	Marionette	TRACE	0 <- [1,14,null,{"value":null}]
+1536204979263	Marionette	TRACE	0 -> [0,15,"WebDriver:FindElement",{"using":"xpath","value":"//*[@id=\"clientname\"]"}]
+1536204979266	Marionette	TRACE	0 <- [1,15,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"85686ebd-b553-44ed-beb0-e567ff6f0836"}}]
+1536204979269	Marionette	TRACE	0 -> [0,16,"WebDriver:ElementClear",{"id":"85686ebd-b553-44ed-beb0-e567ff6f0836"}]
+1536204979272	Marionette	TRACE	0 <- [1,16,null,{"value":null}]
+1536204979275	Marionette	TRACE	0 -> [0,17,"WebDriver:ElementSendKeys",{"id":"85686ebd-b553-44ed-beb0-e567ff6f0836","text":"name01","value":["n","a","m","e","0","1"]}]
+1536204979292	Marionette	TRACE	0 <- [1,17,null,{"value":null}]
+1536204979297	Marionette	TRACE	0 -> [0,18,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"clientlink\"]"}]
+1536204979300	Marionette	TRACE	0 <- [1,18,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c28b32b1-0d7a-44ba-8c7a-1424107c74bd"}}]
+1536204979302	Marionette	TRACE	0 -> [0,19,"WebDriver:ElementClear",{"id":"c28b32b1-0d7a-44ba-8c7a-1424107c74bd"}]
+1536204979305	Marionette	TRACE	0 <- [1,19,null,{"value":null}]
+1536204979308	Marionette	TRACE	0 -> [0,20,"WebDriver:ElementSendKeys",{"id":"c28b32b1-0d7a-44ba-8c7a-1424107c74bd","text":"老王","value":["老","王"]}]
+1536204979315	Marionette	TRACE	0 <- [1,20,null,{"value":null}]
+1536204979318	Marionette	TRACE	0 -> [0,21,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"clienttel\"]"}]
+1536204979320	Marionette	TRACE	0 <- [1,21,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"208e4b27-7c5b-4715-b4ae-d15f69ddf717"}}]
+1536204979324	Marionette	TRACE	0 -> [0,22,"WebDriver:ElementClear",{"id":"208e4b27-7c5b-4715-b4ae-d15f69ddf717"}]
+1536204979327	Marionette	TRACE	0 <- [1,22,null,{"value":null}]
+1536204979331	Marionette	TRACE	0 -> [0,23,"WebDriver:ElementSendKeys",{"id":"208e4b27-7c5b-4715-b4ae-d15f69ddf717","text":"13833885354","value":["1","3","8","3","3","8","8","5","3","5","4"]}]
+1536204979349	Marionette	TRACE	0 <- [1,23,null,{"value":null}]
+1536204979353	Marionette	TRACE	0 -> [0,24,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"clientaddress\"]"}]
+1536204979356	Marionette	TRACE	0 <- [1,24,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"fda3bb29-f5cd-46fb-a05a-00d3cb63fbe5"}}]
+1536204979360	Marionette	TRACE	0 -> [0,25,"WebDriver:ElementClear",{"id":"fda3bb29-f5cd-46fb-a05a-00d3cb63fbe5"}]
+1536204979364	Marionette	TRACE	0 <- [1,25,null,{"value":null}]
+1536204979367	Marionette	TRACE	0 -> [0,26,"WebDriver:ElementSendKeys",{"id":"fda3bb29-f5cd-46fb-a05a-00d3cb63fbe5","text":"上梅林","value":["上","梅","林"]}]
+1536204979375	Marionette	TRACE	0 <- [1,26,null,{"value":null}]
+1536204979378	Marionette	TRACE	0 -> [0,27,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"initreceamt\"]"}]
+1536204979385	Marionette	TRACE	0 <- [1,27,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c40fbc53-c60e-4b5c-8f07-498e6087c93c"}}]
+1536204979388	Marionette	TRACE	0 -> [0,28,"WebDriver:ElementClear",{"id":"c40fbc53-c60e-4b5c-8f07-498e6087c93c"}]
+1536204979391	Marionette	TRACE	0 <- [1,28,null,{"value":null}]
+1536204979394	Marionette	TRACE	0 -> [0,29,"WebDriver:ElementSendKeys",{"id":"c40fbc53-c60e-4b5c-8f07-498e6087c93c","text":"9999","value":["9","9","9","9"]}]
+1536204979401	Marionette	TRACE	0 <- [1,29,null,{"value":null}]
+1536204984404	Marionette	TRACE	0 -> [0,30,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1536204984405	Marionette	INFO	Stopped listening on port 6434
+1536204984686	Marionette	TRACE	0 <- [1,30,null,{"cause":"shutdown"}]
+1536204984713	Marionette	TRACE	0 -> [0,31,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1536204984714	Marionette	TRACE	0 <- [1,31,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDrive ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+[Child 8756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1536204984740	Marionette	DEBUG	Closed connection 0
+[Parent 12096, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12096, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12096, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1536204984967	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1536204984967	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1536204984967	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1536204984967	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1536204984968	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1536204984968	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1536204984968	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1536204984968	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1536204984968	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1536204984969	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1536204984969	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1536204984969	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1536204984969	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1536204984969	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1536204984970	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1536204984970	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1536204984970	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1536204984970	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1536204984970	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1536204984970	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1536204984970	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1536204984970	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1536204984970	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1536204984970	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1536204984970	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1536204984971	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1536204984971	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1536204984971	Marionette	DEBUG	Remote service is inactive
+[GPU 7816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1536205285610	geckodriver	INFO	geckodriver 0.21.0
+1536205285629	geckodriver	INFO	Listening on 127.0.0.1:6580
+1536205288656	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\THINK\\AppData\\Local\\Temp\\rust_mozprofile.5oBNZ1h1XSmE"
+1536205289640	Marionette	DEBUG	Received observer notification profile-after-change
+1536205289780	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1536205289828	Marionette	DEBUG	Received observer notification command-line-startup
+1536205289828	Marionette	DEBUG	Received observer notification nsPref:changed
+1536205289828	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1536205290256	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1536205291863	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1536205291863	Marionette	DEBUG	GFX sanity window detected, waiting until it has been closed...
+1536205292001	Marionette	DEBUG	Received observer notification domwindowclosed
+1536205292001	Marionette	DEBUG	Waiting for delayed startup...
+1536205292141	Marionette	DEBUG	Waiting for startup tests...
+1536205292142	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1536205292142	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1536205292143	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1536205292144	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1536205292144	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1536205292145	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1536205292145	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1536205292146	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1536205292146	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1536205292146	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1536205292147	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1536205292147	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1536205292148	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1536205292148	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1536205292148	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1536205292148	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1536205292148	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1536205292149	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1536205292149	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1536205292149	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1536205292149	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1536205292149	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1536205292149	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1536205292150	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1536205292151	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1536205292151	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1536205292266	Marionette	INFO	Listening on port 6588
+1536205292267	Marionette	DEBUG	Remote service is active
+1536205292602	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:6604
+1536205292607	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1536205292608	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536205292679	Marionette	DEBUG	[6442450945] Frame script loaded
+1536205292695	Marionette	DEBUG	[6442450945] Frame script registered
+1536205292698	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"5c399599-d977-4f44-974d-b4210e011101","capabilities":{"browserName":"firefox","browserVersion":"63.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1536205292705	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1"}]
+1536205292724	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536205292833	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205293727	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205294388	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205294396	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1536205295404	Marionette	TRACE	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":".industry-01"}]
+1536205295407	Marionette	TRACE	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c0c0c6a9-4ab1-4303-b95b-c215c38c5ef0"}}]
+1536205295412	Marionette	TRACE	0 -> [0,4,"WebDriver:ElementClick",{"id":"c0c0c6a9-4ab1-4303-b95b-c215c38c5ef0"}]
+1536205295435	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205295628	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205295630	Marionette	DEBUG	[6442450945] Received DOM event unload for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205295829	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205295850	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205295850	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205295850	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205295951	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205295951	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1536205296957	Marionette	TRACE	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":".role-01"}]
+1536205296959	Marionette	TRACE	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2592a4ee-fa4c-4a11-9306-3fc074b5280e"}}]
+1536205296962	Marionette	TRACE	0 -> [0,6,"WebDriver:ElementClick",{"id":"2592a4ee-fa4c-4a11-9306-3fc074b5280e"}]
+1536205296976	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205297470	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205297471	Marionette	DEBUG	[6442450945] Received DOM event unload for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+JavaScript error: http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo, line 1508: TypeError: Report.Register is not a function
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205297857	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205299127	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo
+1536205299127	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1536205299134	Marionette	TRACE	0 -> [0,7,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/div[25]/div/div/div/a"}]
+1536205299152	Marionette	TRACE	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a19c184c-0cea-4c8f-99f3-8a308d8f9ce2"}}]
+1536205299179	Marionette	TRACE	0 -> [0,8,"WebDriver:ElementClick",{"id":"a19c184c-0cea-4c8f-99f3-8a308d8f9ce2"}]
+1536205299433	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536205299433	Marionette	TRACE	0 <- [1,8,null,{"value":null}]
+1536205300437	Marionette	TRACE	0 -> [0,9,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/table/tbody/tr/td[1]/div/ul/li[3]/a"}]
+1536205300457	Marionette	TRACE	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6c1194c4-2490-4a20-b422-98956389e300"}}]
+1536205300461	Marionette	TRACE	0 -> [0,10,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":250,"origin":{"element-6066-11e4-a52e-4f735466cecf":"6c1 ... "parameters":{"pointerType":"mouse"},"type":"pointer"},{"actions":[{"duration":0,"type":"pause"}],"id":"key","type":"key"}]}]
+1536205300822	Marionette	TRACE	0 <- [1,10,null,{"value":null}]
+1536205301826	Marionette	TRACE	0 -> [0,11,"WebDriver:FindElement",{"using":"css selector","value":"#secondmenu3 > ul:nth-child(1) > li:nth-child(2) > a:nth-child(2)"}]
+1536205301829	Marionette	TRACE	0 <- [1,11,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"4006374a-d60a-4db5-8262-e17ca52d32d9"}}]
+1536205301832	Marionette	TRACE	0 -> [0,12,"WebDriver:ElementClick",{"id":"4006374a-d60a-4db5-8262-e17ca52d32d9"}]
+1536205302314	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536205302315	Marionette	TRACE	0 <- [1,12,null,{"value":null}]
+1536205307321	Marionette	TRACE	0 -> [0,13,"WebDriver:FindElement",{"using":"xpath","value":"//iframe[contains(@src,'ClientInfo')]"}]
+1536205307333	Marionette	TRACE	0 <- [1,13,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6330e4a6-6887-4b04-b35b-d49cd690cd4b"}}]
+1536205307336	Marionette	TRACE	0 -> [0,14,"WebDriver:SwitchToFrame",{"element":"6330e4a6-6887-4b04-b35b-d49cd690cd4b"}]
+1536205307340	Marionette	TRACE	0 <- [1,14,null,{"value":null}]
+1536205307343	Marionette	TRACE	0 -> [0,15,"WebDriver:FindElement",{"using":"xpath","value":"//*[@id=\"clientname\"]"}]
+1536205307346	Marionette	TRACE	0 <- [1,15,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"91d57299-77d6-4449-82ef-a5e9759547e5"}}]
+1536205307349	Marionette	TRACE	0 -> [0,16,"WebDriver:ElementClear",{"id":"91d57299-77d6-4449-82ef-a5e9759547e5"}]
+1536205307353	Marionette	TRACE	0 <- [1,16,null,{"value":null}]
+1536205307356	Marionette	TRACE	0 -> [0,17,"WebDriver:ElementSendKeys",{"id":"91d57299-77d6-4449-82ef-a5e9759547e5","text":"name01","value":["n","a","m","e","0","1"]}]
+1536205307372	Marionette	TRACE	0 <- [1,17,null,{"value":null}]
+1536205307377	Marionette	TRACE	0 -> [0,18,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"clientlink\"]"}]
+1536205307381	Marionette	TRACE	0 <- [1,18,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7a9dd9cd-584a-43b2-b17f-6e6bee6d3a08"}}]
+1536205307384	Marionette	TRACE	0 -> [0,19,"WebDriver:ElementClear",{"id":"7a9dd9cd-584a-43b2-b17f-6e6bee6d3a08"}]
+1536205307387	Marionette	TRACE	0 <- [1,19,null,{"value":null}]
+1536205307389	Marionette	TRACE	0 -> [0,20,"WebDriver:ElementSendKeys",{"id":"7a9dd9cd-584a-43b2-b17f-6e6bee6d3a08","text":"老王","value":["老","王"]}]
+1536205307397	Marionette	TRACE	0 <- [1,20,null,{"value":null}]
+1536205307400	Marionette	TRACE	0 -> [0,21,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"clienttel\"]"}]
+1536205307403	Marionette	TRACE	0 <- [1,21,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"fc7d767a-34c2-4796-a692-c3999df02915"}}]
+1536205307406	Marionette	TRACE	0 -> [0,22,"WebDriver:ElementClear",{"id":"fc7d767a-34c2-4796-a692-c3999df02915"}]
+1536205307409	Marionette	TRACE	0 <- [1,22,null,{"value":null}]
+1536205307413	Marionette	TRACE	0 -> [0,23,"WebDriver:ElementSendKeys",{"id":"fc7d767a-34c2-4796-a692-c3999df02915","text":"13833885354","value":["1","3","8","3","3","8","8","5","3","5","4"]}]
+1536205307431	Marionette	TRACE	0 <- [1,23,null,{"value":null}]
+1536205307434	Marionette	TRACE	0 -> [0,24,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"clientaddress\"]"}]
+1536205307438	Marionette	TRACE	0 <- [1,24,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c50db0e9-883b-4eed-ae72-8adf53657922"}}]
+1536205307440	Marionette	TRACE	0 -> [0,25,"WebDriver:ElementClear",{"id":"c50db0e9-883b-4eed-ae72-8adf53657922"}]
+1536205307443	Marionette	TRACE	0 <- [1,25,null,{"value":null}]
+1536205307446	Marionette	TRACE	0 -> [0,26,"WebDriver:ElementSendKeys",{"id":"c50db0e9-883b-4eed-ae72-8adf53657922","text":"上梅林","value":["上","梅","林"]}]
+1536205307453	Marionette	TRACE	0 <- [1,26,null,{"value":null}]
+1536205307456	Marionette	TRACE	0 -> [0,27,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"initreceamt\"]"}]
+1536205307460	Marionette	TRACE	0 <- [1,27,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7c92ba63-a742-45de-8e17-11de983a2c39"}}]
+1536205307462	Marionette	TRACE	0 -> [0,28,"WebDriver:ElementClear",{"id":"7c92ba63-a742-45de-8e17-11de983a2c39"}]
+1536205307465	Marionette	TRACE	0 <- [1,28,null,{"value":null}]
+1536205307467	Marionette	TRACE	0 -> [0,29,"WebDriver:ElementSendKeys",{"id":"7c92ba63-a742-45de-8e17-11de983a2c39","text":"9999","value":["9","9","9","9"]}]
+1536205307475	Marionette	TRACE	0 <- [1,29,null,{"value":null}]
+1536205312477	Marionette	TRACE	0 -> [0,30,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1536205312478	Marionette	INFO	Stopped listening on port 6588
+1536205312749	Marionette	TRACE	0 <- [1,30,null,{"cause":"shutdown"}]
+[Child 11872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1536205312820	Marionette	TRACE	0 -> [0,31,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1536205312821	Marionette	TRACE	0 <- [1,31,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDrive ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1536205312824	Marionette	DEBUG	Closed connection 0
+[Child 764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6468, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1536205313077	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1536205313077	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1536205313077	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1536205313077	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1536205313078	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1536205313079	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1536205313079	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1536205313079	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1536205313080	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1536205313080	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1536205313080	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1536205313080	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1536205313080	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1536205313081	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1536205313081	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1536205313081	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1536205313081	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1536205313081	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1536205313081	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1536205313082	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1536205313082	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1536205313082	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1536205313082	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1536205313082	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1536205313082	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1536205313082	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1536205313082	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1536205313083	Marionette	DEBUG	Remote service is inactive
+[GPU 12244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536205500229	geckodriver	INFO	geckodriver 0.21.0
+1536205500251	geckodriver	INFO	Listening on 127.0.0.1:6728
+1536205503273	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\THINK\\AppData\\Local\\Temp\\rust_mozprofile.QKvkCxOYs1ZA"
+1536205504148	Marionette	DEBUG	Received observer notification profile-after-change
+1536205504282	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1536205504347	Marionette	DEBUG	Received observer notification command-line-startup
+1536205504347	Marionette	DEBUG	Received observer notification nsPref:changed
+1536205504347	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1536205504550	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1536205506147	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1536205506148	Marionette	DEBUG	Waiting for delayed startup...
+1536205506301	Marionette	DEBUG	Waiting for startup tests...
+1536205506301	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1536205506302	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1536205506303	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1536205506303	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1536205506304	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1536205506304	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1536205506305	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1536205506305	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1536205506305	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1536205506306	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1536205506306	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1536205506307	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1536205506307	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1536205506307	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1536205506308	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1536205506308	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1536205506308	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1536205506308	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1536205506309	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1536205506309	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1536205506309	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1536205506309	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1536205506309	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1536205506310	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1536205506310	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1536205506310	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1536205506370	Marionette	INFO	Listening on port 6736
+1536205506370	Marionette	DEBUG	Remote service is active
+1536205506555	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:6747
+1536205506557	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1536205506558	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536205506637	Marionette	DEBUG	[6442450945] Frame script loaded
+1536205506651	Marionette	DEBUG	[6442450945] Frame script registered
+1536205506655	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"7bf2c124-d7df-4654-a8f5-7ec9959610f1","capabilities":{"browserName":"firefox","browserVersion":"63.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1536205506679	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1"}]
+1536205506701	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536205506806	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205507640	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205508378	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205508379	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1536205509384	Marionette	TRACE	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":".industry-01"}]
+1536205509387	Marionette	TRACE	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"357ab1e6-e4f0-49ea-b9d9-5b9dbe9646ec"}}]
+1536205509390	Marionette	TRACE	0 -> [0,4,"WebDriver:ElementClick",{"id":"357ab1e6-e4f0-49ea-b9d9-5b9dbe9646ec"}]
+1536205509405	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205509614	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205509615	Marionette	DEBUG	[6442450945] Received DOM event unload for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205509796	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205509822	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205509822	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205509822	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205509930	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205509932	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1536205510938	Marionette	TRACE	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":".role-01"}]
+1536205510940	Marionette	TRACE	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"170dd410-3fcb-40c4-942d-7651dca30c66"}}]
+1536205510943	Marionette	TRACE	0 -> [0,6,"WebDriver:ElementClick",{"id":"170dd410-3fcb-40c4-942d-7651dca30c66"}]
+1536205510958	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205511441	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205511442	Marionette	DEBUG	[6442450945] Received DOM event unload for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+JavaScript error: http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo, line 1508: TypeError: Report.Register is not a function
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205511803	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205513029	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo
+1536205513030	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1536205513035	Marionette	TRACE	0 -> [0,7,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/div[25]/div/div/div/a"}]
+1536205513046	Marionette	TRACE	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"3da5f3fe-6d20-4ea2-8049-dccbf5af466e"}}]
+1536205513056	Marionette	TRACE	0 -> [0,8,"WebDriver:ElementClick",{"id":"3da5f3fe-6d20-4ea2-8049-dccbf5af466e"}]
+1536205513309	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536205513309	Marionette	TRACE	0 <- [1,8,null,{"value":null}]
+1536205514312	Marionette	TRACE	0 -> [0,9,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/table/tbody/tr/td[1]/div/ul/li[3]/a"}]
+1536205514325	Marionette	TRACE	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"bd2e3926-3f10-456d-9ee0-3ffffe01d5ab"}}]
+1536205514328	Marionette	TRACE	0 -> [0,10,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":250,"origin":{"element-6066-11e4-a52e-4f735466cecf":"bd2 ... "parameters":{"pointerType":"mouse"},"type":"pointer"},{"actions":[{"duration":0,"type":"pause"}],"id":"key","type":"key"}]}]
+1536205514597	Marionette	TRACE	0 <- [1,10,null,{"value":null}]
+1536205515612	Marionette	TRACE	0 -> [0,11,"WebDriver:FindElement",{"using":"css selector","value":"#secondmenu3 > ul:nth-child(1) > li:nth-child(2) > a:nth-child(2)"}]
+1536205515615	Marionette	TRACE	0 <- [1,11,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"58aec20b-b2b5-4292-b990-ad4d23bb990b"}}]
+1536205515618	Marionette	TRACE	0 -> [0,12,"WebDriver:ElementClick",{"id":"58aec20b-b2b5-4292-b990-ad4d23bb990b"}]
+1536205516079	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536205516081	Marionette	TRACE	0 <- [1,12,null,{"value":null}]
+1536205521093	Marionette	TRACE	0 -> [0,13,"WebDriver:FindElement",{"using":"xpath","value":"//iframe[contains(@src,'ClientInfo')]"}]
+1536205521105	Marionette	TRACE	0 <- [1,13,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2664fb5c-8f72-4d36-a180-e5f244bf1c53"}}]
+1536205521108	Marionette	TRACE	0 -> [0,14,"WebDriver:SwitchToFrame",{"element":"2664fb5c-8f72-4d36-a180-e5f244bf1c53"}]
+1536205521113	Marionette	TRACE	0 <- [1,14,null,{"value":null}]
+1536205521116	Marionette	TRACE	0 -> [0,15,"WebDriver:FindElement",{"using":"xpath","value":"//*[@id=\"clientname\"]"}]
+1536205521119	Marionette	TRACE	0 <- [1,15,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"0fba3c13-823a-4694-8a17-f6d6408f51b7"}}]
+1536205521123	Marionette	TRACE	0 -> [0,16,"WebDriver:ElementClear",{"id":"0fba3c13-823a-4694-8a17-f6d6408f51b7"}]
+1536205521126	Marionette	TRACE	0 <- [1,16,null,{"value":null}]
+1536205521130	Marionette	TRACE	0 -> [0,17,"WebDriver:ElementSendKeys",{"id":"0fba3c13-823a-4694-8a17-f6d6408f51b7","text":"name01","value":["n","a","m","e","0","1"]}]
+1536205521147	Marionette	TRACE	0 <- [1,17,null,{"value":null}]
+1536205521152	Marionette	TRACE	0 -> [0,18,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"clientlink\"]"}]
+1536205521155	Marionette	TRACE	0 <- [1,18,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6abefdfb-fd2a-44f5-844f-ed08cf0e70ee"}}]
+1536205521158	Marionette	TRACE	0 -> [0,19,"WebDriver:ElementClear",{"id":"6abefdfb-fd2a-44f5-844f-ed08cf0e70ee"}]
+1536205521161	Marionette	TRACE	0 <- [1,19,null,{"value":null}]
+1536205521164	Marionette	TRACE	0 -> [0,20,"WebDriver:ElementSendKeys",{"id":"6abefdfb-fd2a-44f5-844f-ed08cf0e70ee","text":"老王","value":["老","王"]}]
+1536205521172	Marionette	TRACE	0 <- [1,20,null,{"value":null}]
+1536205521175	Marionette	TRACE	0 -> [0,21,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"clienttel\"]"}]
+1536205521179	Marionette	TRACE	0 <- [1,21,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"926ae0dc-c49d-408a-8186-e1aba008e1e7"}}]
+1536205521183	Marionette	TRACE	0 -> [0,22,"WebDriver:ElementClear",{"id":"926ae0dc-c49d-408a-8186-e1aba008e1e7"}]
+1536205521185	Marionette	TRACE	0 <- [1,22,null,{"value":null}]
+1536205521190	Marionette	TRACE	0 -> [0,23,"WebDriver:ElementSendKeys",{"id":"926ae0dc-c49d-408a-8186-e1aba008e1e7","text":"13833885354","value":["1","3","8","3","3","8","8","5","3","5","4"]}]
+1536205521204	Marionette	TRACE	0 <- [1,23,null,{"value":null}]
+1536205521208	Marionette	TRACE	0 -> [0,24,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"clientaddress\"]"}]
+1536205521212	Marionette	TRACE	0 <- [1,24,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"5d130bde-c969-4e45-9ffc-6af967972f74"}}]
+1536205521214	Marionette	TRACE	0 -> [0,25,"WebDriver:ElementClear",{"id":"5d130bde-c969-4e45-9ffc-6af967972f74"}]
+1536205521217	Marionette	TRACE	0 <- [1,25,null,{"value":null}]
+1536205521220	Marionette	TRACE	0 -> [0,26,"WebDriver:ElementSendKeys",{"id":"5d130bde-c969-4e45-9ffc-6af967972f74","text":"上梅林","value":["上","梅","林"]}]
+1536205521228	Marionette	TRACE	0 <- [1,26,null,{"value":null}]
+1536205521235	Marionette	TRACE	0 -> [0,27,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"initreceamt\"]"}]
+1536205521238	Marionette	TRACE	0 <- [1,27,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"1a633058-beb2-44c5-a4eb-dd1ccd515d44"}}]
+1536205521240	Marionette	TRACE	0 -> [0,28,"WebDriver:ElementClear",{"id":"1a633058-beb2-44c5-a4eb-dd1ccd515d44"}]
+1536205521244	Marionette	TRACE	0 <- [1,28,null,{"value":null}]
+1536205521246	Marionette	TRACE	0 -> [0,29,"WebDriver:ElementSendKeys",{"id":"1a633058-beb2-44c5-a4eb-dd1ccd515d44","text":"9999","value":["9","9","9","9"]}]
+1536205521254	Marionette	TRACE	0 <- [1,29,null,{"value":null}]
+1536205526258	Marionette	TRACE	0 -> [0,30,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1536205526258	Marionette	INFO	Stopped listening on port 6736
+1536205526587	Marionette	TRACE	0 <- [1,30,null,{"cause":"shutdown"}]
+1536205526625	Marionette	TRACE	0 -> [0,31,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1536205526626	Marionette	TRACE	0 <- [1,31,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDrive ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+[Child 7732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1536205526638	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Parent 9596, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3600, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1536205526661	Marionette	DEBUG	Closed connection 0
+[Child 7952, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9596, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1536205526948	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1536205526948	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1536205526948	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1536205526949	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1536205526949	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1536205526949	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1536205526949	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1536205526949	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1536205526950	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1536205526950	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1536205526950	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1536205526950	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1536205526950	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1536205526951	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1536205526951	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1536205526951	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1536205526951	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1536205526951	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1536205526951	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1536205526952	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1536205526952	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1536205526952	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1536205526952	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1536205526952	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1536205526952	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1536205526952	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1536205526952	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1536205526953	Marionette	DEBUG	Remote service is inactive
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 4716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536205528458	geckodriver	INFO	geckodriver 0.21.0
+1536205528478	geckodriver	INFO	Listening on 127.0.0.1:6856
+1536205531477	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\THINK\\AppData\\Local\\Temp\\rust_mozprofile.GZnqHNn0SP2u"
+1536205532465	Marionette	DEBUG	Received observer notification profile-after-change
+1536205532600	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1536205532653	Marionette	DEBUG	Received observer notification command-line-startup
+1536205532653	Marionette	DEBUG	Received observer notification nsPref:changed
+1536205532653	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1536205532863	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1536205534156	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1536205534156	Marionette	DEBUG	Waiting for delayed startup...
+1536205534263	Marionette	DEBUG	Waiting for startup tests...
+1536205534263	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1536205534264	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1536205534265	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1536205534265	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1536205534266	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1536205534266	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1536205534266	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1536205534267	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1536205534267	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1536205534267	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1536205534267	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1536205534268	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1536205534268	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1536205534268	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1536205534268	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1536205534268	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1536205534268	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1536205534269	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1536205534270	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1536205534270	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1536205534271	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1536205534271	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1536205534271	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1536205534272	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1536205534272	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1536205534272	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1536205534319	Marionette	INFO	Listening on port 6864
+1536205534319	Marionette	DEBUG	Remote service is active
+1536205534729	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:6873
+1536205534730	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1536205534731	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536205534785	Marionette	DEBUG	[6442450945] Frame script loaded
+1536205534796	Marionette	DEBUG	[6442450945] Frame script registered
+1536205534800	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"129b249d-156e-4c7e-86ef-3898296748d0","capabilities":{"browserName":"firefox","browserVersion":"63.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1536205534806	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1"}]
+1536205534823	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536205534940	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205535814	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205536533	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205536535	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1536205537539	Marionette	TRACE	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":".industry-01"}]
+1536205537545	Marionette	TRACE	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7fe1a818-c404-4943-af36-1d24b3ba8563"}}]
+1536205537549	Marionette	TRACE	0 -> [0,4,"WebDriver:ElementClick",{"id":"7fe1a818-c404-4943-af36-1d24b3ba8563"}]
+1536205537588	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205537775	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205537776	Marionette	DEBUG	[6442450945] Received DOM event unload for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205537984	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205538014	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205538014	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205538014	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205538161	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205538164	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1536205539170	Marionette	TRACE	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":".role-01"}]
+1536205539173	Marionette	TRACE	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f21cd542-26d9-4c28-8c81-d901ddc34caa"}}]
+1536205539178	Marionette	TRACE	0 -> [0,6,"WebDriver:ElementClick",{"id":"f21cd542-26d9-4c28-8c81-d901ddc34caa"}]
+1536205539196	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205539641	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205539641	Marionette	DEBUG	[6442450945] Received DOM event unload for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+JavaScript error: http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo, line 1508: TypeError: Report.Register is not a function
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205540061	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205541445	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo
+1536205541446	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1536205541451	Marionette	TRACE	0 -> [0,7,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/div[25]/div/div/div/a"}]
+1536205541467	Marionette	TRACE	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"1cd78886-3eb1-47f6-a6cc-9823328e7c97"}}]
+1536205541500	Marionette	TRACE	0 -> [0,8,"WebDriver:ElementClick",{"id":"1cd78886-3eb1-47f6-a6cc-9823328e7c97"}]
+1536205541751	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536205541752	Marionette	TRACE	0 <- [1,8,null,{"value":null}]
+1536205542755	Marionette	TRACE	0 -> [0,9,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/table/tbody/tr/td[1]/div/ul/li[3]/a"}]
+1536205542869	Marionette	TRACE	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"01c3bfdd-2070-4f9d-8834-04b384faa9be"}}]
+1536205542875	Marionette	TRACE	0 -> [0,10,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":250,"origin":{"element-6066-11e4-a52e-4f735466cecf":"01c ... "parameters":{"pointerType":"mouse"},"type":"pointer"},{"actions":[{"duration":0,"type":"pause"}],"id":"key","type":"key"}]}]
+1536205543145	Marionette	TRACE	0 <- [1,10,null,{"value":null}]
+1536205544147	Marionette	TRACE	0 -> [0,11,"WebDriver:FindElement",{"using":"css selector","value":"#secondmenu3 > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"}]
+1536205544150	Marionette	TRACE	0 <- [1,11,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"fcb07e91-5183-4e18-8bf1-043c5f1be972"}}]
+1536205544153	Marionette	TRACE	0 -> [0,12,"WebDriver:ElementClick",{"id":"fcb07e91-5183-4e18-8bf1-043c5f1be972"}]
+1536205544532	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536205544533	Marionette	TRACE	0 <- [1,12,null,{"value":null}]
+1536205549538	Marionette	TRACE	0 -> [0,13,"WebDriver:FindElement",{"using":"xpath","value":"//iframe[contains(@src,'List')]"}]
+1536205549551	Marionette	TRACE	0 <- [1,13,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"5f1d55fc-aea5-4966-875a-3dc4517548dd"}}]
+1536205549555	Marionette	TRACE	0 -> [0,14,"WebDriver:SwitchToFrame",{"element":"5f1d55fc-aea5-4966-875a-3dc4517548dd"}]
+1536205549562	Marionette	TRACE	0 <- [1,14,null,{"value":null}]
+1536205549565	Marionette	TRACE	0 -> [0,15,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"keyword\"]"}]
+1536205549568	Marionette	TRACE	0 <- [1,15,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"ee464d34-173f-4eb9-8cd2-0f19fc627734"}}]
+1536205549571	Marionette	TRACE	0 -> [0,16,"WebDriver:ElementSendKeys",{"id":"ee464d34-173f-4eb9-8cd2-0f19fc627734","text":"盛唐酒店","value":["盛","唐","酒","店"]}]
+1536205549588	Marionette	TRACE	0 <- [1,16,null,{"value":null}]
+1536205549591	Marionette	TRACE	0 -> [0,17,"WebDriver:FindElement",{"using":"css selector","value":"#searchDiv > a:nth-child(2)"}]
+1536205549595	Marionette	TRACE	0 <- [1,17,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e8feb953-35f7-457d-9985-253ec6a2a1e4"}}]
+1536205549599	Marionette	TRACE	0 -> [0,18,"WebDriver:ElementClick",{"id":"e8feb953-35f7-457d-9985-253ec6a2a1e4"}]
+1536205550062	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536205550063	Marionette	TRACE	0 <- [1,18,null,{"value":null}]
+1536205561071	Marionette	TRACE	0 -> [0,19,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1536205561073	Marionette	INFO	Stopped listening on port 6864
+1536205561378	Marionette	TRACE	0 <- [1,19,null,{"cause":"shutdown"}]
+1536205561432	Marionette	TRACE	0 -> [0,20,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1536205561432	Marionette	TRACE	0 <- [1,20,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDrive ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+[Child 11556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1536205561480	Marionette	DEBUG	Closed connection 0
+[Parent 12228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12228, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1536205561786	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1536205561787	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1536205561787	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1536205561788	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1536205561788	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1536205561788	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1536205561788	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1536205561788	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1536205561789	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1536205561789	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1536205561789	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1536205561789	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1536205561789	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1536205561790	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1536205561790	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1536205561790	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1536205561790	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1536205561790	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1536205561790	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1536205561791	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1536205561791	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1536205561791	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1536205561791	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1536205561791	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1536205561791	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1536205561792	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1536205561792	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1536205561792	Marionette	DEBUG	Remote service is inactive
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 11648, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536205673873	geckodriver	INFO	geckodriver 0.21.0
+1536205673899	geckodriver	INFO	Listening on 127.0.0.1:7006
+1536205676914	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\THINK\\AppData\\Local\\Temp\\rust_mozprofile.lAnA8dQ5BkkJ"
+1536205677885	Marionette	DEBUG	Received observer notification profile-after-change
+1536205677996	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1536205678062	Marionette	DEBUG	Received observer notification command-line-startup
+1536205678062	Marionette	DEBUG	Received observer notification nsPref:changed
+1536205678062	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1536205678261	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1536205680071	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1536205680072	Marionette	DEBUG	Waiting for delayed startup...
+1536205680212	Marionette	DEBUG	Waiting for startup tests...
+1536205680213	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1536205680213	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1536205680214	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1536205680214	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1536205680215	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1536205680215	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1536205680216	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1536205680216	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1536205680216	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1536205680217	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1536205680217	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1536205680217	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1536205680218	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1536205680218	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1536205680218	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1536205680218	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1536205680218	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1536205680218	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1536205680218	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1536205680219	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1536205680219	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1536205680219	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1536205680219	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1536205680219	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1536205680220	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1536205680220	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1536205680302	Marionette	INFO	Listening on port 7015
+1536205680302	Marionette	DEBUG	Remote service is active
+1536205680770	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:7029
+1536205680772	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1536205680772	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536205680826	Marionette	DEBUG	[6442450945] Frame script loaded
+1536205680838	Marionette	DEBUG	[6442450945] Frame script registered
+1536205680840	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"9d103be8-bf86-45d4-abf7-3677405d8527","capabilities":{"browserName":"firefox","browserVersion":"63.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1536205680844	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1"}]
+1536205680859	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536205680974	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205682127	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205685455	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205685457	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1536205686484	Marionette	TRACE	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":".industry-01"}]
+1536205686488	Marionette	TRACE	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d9e56c71-36da-4845-981c-81700cba10c8"}}]
+1536205686492	Marionette	TRACE	0 -> [0,4,"WebDriver:ElementClick",{"id":"d9e56c71-36da-4845-981c-81700cba10c8"}]
+1536205686515	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205686694	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205686695	Marionette	DEBUG	[6442450945] Received DOM event unload for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205686906	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205686935	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205686935	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205686936	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205687036	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205687037	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1536205688043	Marionette	TRACE	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":".role-01"}]
+1536205688046	Marionette	TRACE	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f6cab680-54ec-44f8-92b1-846a0321346e"}}]
+1536205688049	Marionette	TRACE	0 -> [0,6,"WebDriver:ElementClick",{"id":"f6cab680-54ec-44f8-92b1-846a0321346e"}]
+1536205688064	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205688579	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205688580	Marionette	DEBUG	[6442450945] Received DOM event unload for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+JavaScript error: http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo, line 1508: TypeError: Report.Register is not a function
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205688913	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205690519	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo
+1536205690519	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1536205690524	Marionette	TRACE	0 -> [0,7,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/div[25]/div/div/div/a"}]
+1536205690550	Marionette	TRACE	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"b296b4e2-21d4-49b8-9335-b09474e0ede8"}}]
+1536205690553	Marionette	TRACE	0 -> [0,8,"WebDriver:ElementClick",{"id":"b296b4e2-21d4-49b8-9335-b09474e0ede8"}]
+1536205690778	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536205690778	Marionette	TRACE	0 <- [1,8,null,{"value":null}]
+1536205691782	Marionette	TRACE	0 -> [0,9,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/table/tbody/tr/td[1]/div/ul/li[3]/a"}]
+1536205691785	Marionette	TRACE	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f449fc6e-51c2-46c8-8dbe-eeeaf84c77b7"}}]
+1536205691789	Marionette	TRACE	0 -> [0,10,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":250,"origin":{"element-6066-11e4-a52e-4f735466cecf":"f44 ... "parameters":{"pointerType":"mouse"},"type":"pointer"},{"actions":[{"duration":0,"type":"pause"}],"id":"key","type":"key"}]}]
+1536205692071	Marionette	TRACE	0 <- [1,10,null,{"value":null}]
+1536205693075	Marionette	TRACE	0 -> [0,11,"WebDriver:FindElement",{"using":"css selector","value":"#secondmenu3 > ul:nth-child(1) > li:nth-child(2) > a:nth-child(2)"}]
+1536205693078	Marionette	TRACE	0 <- [1,11,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"01ac2360-1713-4d8f-b3ca-92ae1e04efc8"}}]
+1536205693081	Marionette	TRACE	0 -> [0,12,"WebDriver:ElementClick",{"id":"01ac2360-1713-4d8f-b3ca-92ae1e04efc8"}]
+1536205693581	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536205693582	Marionette	TRACE	0 <- [1,12,null,{"value":null}]
+1536205698585	Marionette	TRACE	0 -> [0,13,"WebDriver:FindElement",{"using":"xpath","value":"//iframe[contains(@src,'ClientInfo')]"}]
+1536205698597	Marionette	TRACE	0 <- [1,13,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c799dce4-d980-42ae-ac14-bd5b7cdda919"}}]
+1536205698600	Marionette	TRACE	0 -> [0,14,"WebDriver:SwitchToFrame",{"element":"c799dce4-d980-42ae-ac14-bd5b7cdda919"}]
+1536205698604	Marionette	TRACE	0 <- [1,14,null,{"value":null}]
+1536205698609	Marionette	TRACE	0 -> [0,15,"WebDriver:FindElement",{"using":"xpath","value":"//*[@id=\"clientname\"]"}]
+1536205698614	Marionette	TRACE	0 <- [1,15,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"cc593884-fc53-46d0-8329-2460b022b144"}}]
+1536205698617	Marionette	TRACE	0 -> [0,16,"WebDriver:ElementClear",{"id":"cc593884-fc53-46d0-8329-2460b022b144"}]
+1536205698620	Marionette	TRACE	0 <- [1,16,null,{"value":null}]
+1536205698623	Marionette	TRACE	0 -> [0,17,"WebDriver:ElementSendKeys",{"id":"cc593884-fc53-46d0-8329-2460b022b144","text":"name01","value":["n","a","m","e","0","1"]}]
+1536205698638	Marionette	TRACE	0 <- [1,17,null,{"value":null}]
+1536205698642	Marionette	TRACE	0 -> [0,18,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"clientlink\"]"}]
+1536205698646	Marionette	TRACE	0 <- [1,18,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"756740f1-e39e-415c-894c-139ce74ac830"}}]
+1536205698649	Marionette	TRACE	0 -> [0,19,"WebDriver:ElementClear",{"id":"756740f1-e39e-415c-894c-139ce74ac830"}]
+1536205698652	Marionette	TRACE	0 <- [1,19,null,{"value":null}]
+1536205698656	Marionette	TRACE	0 -> [0,20,"WebDriver:ElementSendKeys",{"id":"756740f1-e39e-415c-894c-139ce74ac830","text":"老王","value":["老","王"]}]
+1536205698663	Marionette	TRACE	0 <- [1,20,null,{"value":null}]
+1536205698666	Marionette	TRACE	0 -> [0,21,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"clienttel\"]"}]
+1536205698668	Marionette	TRACE	0 <- [1,21,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"32c4a66f-a5ea-42fe-b14e-aa20d4d4511d"}}]
+1536205698672	Marionette	TRACE	0 -> [0,22,"WebDriver:ElementClear",{"id":"32c4a66f-a5ea-42fe-b14e-aa20d4d4511d"}]
+1536205698675	Marionette	TRACE	0 <- [1,22,null,{"value":null}]
+1536205698679	Marionette	TRACE	0 -> [0,23,"WebDriver:ElementSendKeys",{"id":"32c4a66f-a5ea-42fe-b14e-aa20d4d4511d","text":"13833885354","value":["1","3","8","3","3","8","8","5","3","5","4"]}]
+1536205698698	Marionette	TRACE	0 <- [1,23,null,{"value":null}]
+1536205698702	Marionette	TRACE	0 -> [0,24,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"clientaddress\"]"}]
+1536205698706	Marionette	TRACE	0 <- [1,24,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"beccd465-eb0b-45bb-bfb2-bebc51e078e3"}}]
+1536205698709	Marionette	TRACE	0 -> [0,25,"WebDriver:ElementClear",{"id":"beccd465-eb0b-45bb-bfb2-bebc51e078e3"}]
+1536205698711	Marionette	TRACE	0 <- [1,25,null,{"value":null}]
+1536205698713	Marionette	TRACE	0 -> [0,26,"WebDriver:ElementSendKeys",{"id":"beccd465-eb0b-45bb-bfb2-bebc51e078e3","text":"上梅林","value":["上","梅","林"]}]
+1536205698722	Marionette	TRACE	0 <- [1,26,null,{"value":null}]
+1536205698725	Marionette	TRACE	0 -> [0,27,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"initreceamt\"]"}]
+1536205698729	Marionette	TRACE	0 <- [1,27,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"b2d17d73-f1c9-427b-8226-c857007ce7e1"}}]
+1536205698732	Marionette	TRACE	0 -> [0,28,"WebDriver:ElementClear",{"id":"b2d17d73-f1c9-427b-8226-c857007ce7e1"}]
+1536205698735	Marionette	TRACE	0 <- [1,28,null,{"value":null}]
+1536205698739	Marionette	TRACE	0 -> [0,29,"WebDriver:ElementSendKeys",{"id":"b2d17d73-f1c9-427b-8226-c857007ce7e1","text":"9999","value":["9","9","9","9"]}]
+1536205698750	Marionette	TRACE	0 <- [1,29,null,{"value":null}]
+1536205703752	Marionette	TRACE	0 -> [0,30,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1536205703753	Marionette	INFO	Stopped listening on port 7015
+1536205704052	Marionette	TRACE	0 <- [1,30,null,{"cause":"shutdown"}]
+1536205704089	Marionette	TRACE	0 -> [0,31,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1536205704090	Marionette	TRACE	0 <- [1,31,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDrive ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+[Child 6464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1536205704115	Marionette	DEBUG	Closed connection 0
+[Child 2336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10120, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1536205704389	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1536205704389	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1536205704389	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1536205704389	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1536205704389	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1536205704390	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1536205704390	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1536205704390	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1536205704390	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1536205704391	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1536205704391	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1536205704391	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1536205704391	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1536205704392	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1536205704392	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1536205704392	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1536205704392	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1536205704392	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1536205704392	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1536205704392	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1536205704392	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1536205704393	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1536205704393	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1536205704393	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1536205704393	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1536205704393	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1536205704393	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1536205704393	Marionette	DEBUG	Remote service is inactive
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 7904, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536205705507	geckodriver	INFO	geckodriver 0.21.0
+1536205705527	geckodriver	INFO	Listening on 127.0.0.1:7133
+1536205708509	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\THINK\\AppData\\Local\\Temp\\rust_mozprofile.DAYmDnGYseB3"
+1536205709469	Marionette	DEBUG	Received observer notification profile-after-change
+1536205709595	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1536205709667	Marionette	DEBUG	Received observer notification command-line-startup
+1536205709667	Marionette	DEBUG	Received observer notification nsPref:changed
+1536205709667	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1536205709891	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1536205711294	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1536205711294	Marionette	DEBUG	Waiting for delayed startup...
+1536205711397	Marionette	DEBUG	Waiting for startup tests...
+1536205711397	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1536205711398	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1536205711398	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1536205711399	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1536205711399	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1536205711399	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1536205711399	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1536205711400	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1536205711400	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1536205711400	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1536205711400	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1536205711401	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1536205711401	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1536205711401	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1536205711401	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1536205711401	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1536205711401	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1536205711401	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1536205711402	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1536205711402	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1536205711402	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1536205711402	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1536205711402	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1536205711402	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1536205711403	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1536205711403	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1536205711480	Marionette	INFO	Listening on port 7141
+1536205711480	Marionette	DEBUG	Remote service is active
+1536205711786	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:7150
+1536205711796	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1536205711797	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536205711866	Marionette	DEBUG	[6442450945] Frame script loaded
+1536205711878	Marionette	DEBUG	[6442450945] Frame script registered
+1536205711881	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"f9bcabd3-a7b6-4136-9e5f-1a67f7ad35e5","capabilities":{"browserName":"firefox","browserVersion":"63.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1536205711887	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1"}]
+1536205711911	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536205712015	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205713057	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205713687	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205713689	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1536205714695	Marionette	TRACE	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":".industry-01"}]
+1536205714698	Marionette	TRACE	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"72a22391-704a-47b2-8a84-e17d0852dbf4"}}]
+1536205714701	Marionette	TRACE	0 -> [0,4,"WebDriver:ElementClick",{"id":"72a22391-704a-47b2-8a84-e17d0852dbf4"}]
+1536205714715	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205714897	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205714898	Marionette	DEBUG	[6442450945] Received DOM event unload for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205715084	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205715103	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205715104	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205715105	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205715224	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205715225	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+[Parent 4948, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4948, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1536205715648	Marionette	DEBUG	Closed connection 0
+[Child 6684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1536205715916	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1536205715916	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1536205715916	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1536205715917	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1536205715917	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1536205715918	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1536205715918	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1536205715918	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1536205715919	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1536205715919	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1536205715919	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1536205715920	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1536205715920	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1536205715920	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1536205715920	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1536205715920	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1536205715920	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1536205715920	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1536205715921	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1536205715921	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1536205715921	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1536205715921	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1536205715921	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1536205715921	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1536205715921	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1536205715924	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1536205715925	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1536205715925	Marionette	INFO	Stopped listening on port 7141
+1536205715925	Marionette	DEBUG	Remote service is inactive
+[GPU 4448, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1536205748226	geckodriver	INFO	geckodriver 0.21.0
+1536205748248	geckodriver	INFO	Listening on 127.0.0.1:7223
+1536205751260	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\THINK\\AppData\\Local\\Temp\\rust_mozprofile.X3qCzSUyGd9n"
+1536205752084	Marionette	DEBUG	Received observer notification profile-after-change
+1536205752207	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1536205752278	Marionette	DEBUG	Received observer notification command-line-startup
+1536205752279	Marionette	DEBUG	Received observer notification nsPref:changed
+1536205752279	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1536205752449	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1536205753664	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1536205753664	Marionette	DEBUG	Waiting for delayed startup...
+1536205753833	Marionette	DEBUG	Waiting for startup tests...
+1536205753834	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1536205753834	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1536205753835	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1536205753836	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1536205753836	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1536205753837	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1536205753837	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1536205753837	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1536205753838	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1536205753838	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1536205753838	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1536205753839	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1536205753839	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1536205753839	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1536205753840	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1536205753840	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1536205753840	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1536205753840	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1536205753840	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1536205753840	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1536205753840	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1536205753840	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1536205753841	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1536205753841	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1536205753841	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1536205753841	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1536205753892	Marionette	INFO	Listening on port 7231
+1536205753892	Marionette	DEBUG	Remote service is active
+1536205753992	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:7242
+1536205754011	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1536205754011	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536205754086	Marionette	DEBUG	[6442450945] Frame script loaded
+1536205754098	Marionette	DEBUG	[6442450945] Frame script registered
+1536205754100	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"9d2ee44f-2014-4c3f-8a2d-e52e68a7bdd2","capabilities":{"browserName":"firefox","browserVersion":"63.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1536205754109	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1"}]
+1536205754129	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536205754235	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205755910	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205756669	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205756708	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1536205757723	Marionette	TRACE	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":".industry-01"}]
+1536205757728	Marionette	TRACE	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"38e566f4-9df7-4e5f-9af1-82979f48b201"}}]
+1536205757733	Marionette	TRACE	0 -> [0,4,"WebDriver:ElementClick",{"id":"38e566f4-9df7-4e5f-9af1-82979f48b201"}]
+1536205757748	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205757909	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205757910	Marionette	DEBUG	[6442450945] Received DOM event unload for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205758107	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205758127	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205758128	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205758128	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205758242	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205758243	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1536205759250	Marionette	TRACE	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":".role-01"}]
+1536205759253	Marionette	TRACE	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"78387ac6-7583-431b-90a5-cd06d7843397"}}]
+1536205759256	Marionette	TRACE	0 -> [0,6,"WebDriver:ElementClick",{"id":"78387ac6-7583-431b-90a5-cd06d7843397"}]
+1536205759271	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205759717	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205759718	Marionette	DEBUG	[6442450945] Received DOM event unload for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+JavaScript error: http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo, line 1508: TypeError: Report.Register is not a function
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205760152	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205761370	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo
+1536205761370	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1536205761377	Marionette	TRACE	0 -> [0,7,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/div[25]/div/div/div/a"}]
+1536205761404	Marionette	TRACE	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9c5185c6-2f36-4de1-a3ec-4e3175b62fae"}}]
+1536205761430	Marionette	TRACE	0 -> [0,8,"WebDriver:ElementClick",{"id":"9c5185c6-2f36-4de1-a3ec-4e3175b62fae"}]
+1536205761669	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536205761670	Marionette	TRACE	0 <- [1,8,null,{"value":null}]
+1536205762674	Marionette	TRACE	0 -> [0,9,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/table/tbody/tr/td[1]/div/ul/li[3]/a"}]
+1536205762686	Marionette	TRACE	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"31a560d2-4086-4ab8-8f3f-0f794ca07c76"}}]
+1536205762689	Marionette	TRACE	0 -> [0,10,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":250,"origin":{"element-6066-11e4-a52e-4f735466cecf":"31a ... "parameters":{"pointerType":"mouse"},"type":"pointer"},{"actions":[{"duration":0,"type":"pause"}],"id":"key","type":"key"}]}]
+1536205762962	Marionette	TRACE	0 <- [1,10,null,{"value":null}]
+1536205763965	Marionette	TRACE	0 -> [0,11,"WebDriver:FindElement",{"using":"css selector","value":"#secondmenu3 > ul:nth-child(1) > li:nth-child(2) > a:nth-child(2)"}]
+1536205763969	Marionette	TRACE	0 <- [1,11,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"aca80fc7-131e-4d24-aa3b-b05ae82027da"}}]
+1536205763973	Marionette	TRACE	0 -> [0,12,"WebDriver:ElementClick",{"id":"aca80fc7-131e-4d24-aa3b-b05ae82027da"}]
+1536205764461	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536205764462	Marionette	TRACE	0 <- [1,12,null,{"value":null}]
+1536205769466	Marionette	TRACE	0 -> [0,13,"WebDriver:FindElement",{"using":"xpath","value":"//iframe[contains(@src,'ClientInfo')]"}]
+1536205769469	Marionette	TRACE	0 <- [1,13,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"210eb2bb-3c6c-408d-833b-736193138f75"}}]
+1536205769472	Marionette	TRACE	0 -> [0,14,"WebDriver:SwitchToFrame",{"element":"210eb2bb-3c6c-408d-833b-736193138f75"}]
+1536205769476	Marionette	TRACE	0 <- [1,14,null,{"value":null}]
+1536205769480	Marionette	TRACE	0 -> [0,15,"WebDriver:FindElement",{"using":"xpath","value":"//*[@id=\"clientname\"]"}]
+1536205769483	Marionette	TRACE	0 <- [1,15,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"79090820-c0fc-430a-a536-0191fa2bd24e"}}]
+1536205769487	Marionette	TRACE	0 -> [0,16,"WebDriver:ElementClear",{"id":"79090820-c0fc-430a-a536-0191fa2bd24e"}]
+1536205769490	Marionette	TRACE	0 <- [1,16,null,{"value":null}]
+1536205769493	Marionette	TRACE	0 -> [0,17,"WebDriver:ElementSendKeys",{"id":"79090820-c0fc-430a-a536-0191fa2bd24e","text":"name01","value":["n","a","m","e","0","1"]}]
+1536205769517	Marionette	TRACE	0 <- [1,17,null,{"value":null}]
+1536205769524	Marionette	TRACE	0 -> [0,18,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"clientlink\"]"}]
+1536205769528	Marionette	TRACE	0 <- [1,18,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"88ec5332-caad-42f8-91d8-2da3c2647924"}}]
+1536205769531	Marionette	TRACE	0 -> [0,19,"WebDriver:ElementClear",{"id":"88ec5332-caad-42f8-91d8-2da3c2647924"}]
+1536205769534	Marionette	TRACE	0 <- [1,19,null,{"value":null}]
+1536205769537	Marionette	TRACE	0 -> [0,20,"WebDriver:ElementSendKeys",{"id":"88ec5332-caad-42f8-91d8-2da3c2647924","text":"老王","value":["老","王"]}]
+1536205769566	Marionette	TRACE	0 <- [1,20,null,{"value":null}]
+1536205769570	Marionette	TRACE	0 -> [0,21,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"clienttel\"]"}]
+1536205769573	Marionette	TRACE	0 <- [1,21,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"116e2ac0-7e93-457e-a982-419cd8ffa588"}}]
+1536205769576	Marionette	TRACE	0 -> [0,22,"WebDriver:ElementClear",{"id":"116e2ac0-7e93-457e-a982-419cd8ffa588"}]
+1536205769579	Marionette	TRACE	0 <- [1,22,null,{"value":null}]
+1536205769583	Marionette	TRACE	0 -> [0,23,"WebDriver:ElementSendKeys",{"id":"116e2ac0-7e93-457e-a982-419cd8ffa588","text":"13833885354","value":["1","3","8","3","3","8","8","5","3","5","4"]}]
+1536205769619	Marionette	TRACE	0 <- [1,23,null,{"value":null}]
+1536205769624	Marionette	TRACE	0 -> [0,24,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"clientaddress\"]"}]
+1536205769626	Marionette	TRACE	0 <- [1,24,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"64f9430c-8e18-48dc-b178-14ea33520605"}}]
+1536205769629	Marionette	TRACE	0 -> [0,25,"WebDriver:ElementClear",{"id":"64f9430c-8e18-48dc-b178-14ea33520605"}]
+1536205769631	Marionette	TRACE	0 <- [1,25,null,{"value":null}]
+1536205769634	Marionette	TRACE	0 -> [0,26,"WebDriver:ElementSendKeys",{"id":"64f9430c-8e18-48dc-b178-14ea33520605","text":"上梅林","value":["上","梅","林"]}]
+1536205769659	Marionette	TRACE	0 <- [1,26,null,{"value":null}]
+1536205769663	Marionette	TRACE	0 -> [0,27,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"initreceamt\"]"}]
+1536205769668	Marionette	TRACE	0 <- [1,27,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"5073410f-eeff-4176-8bec-477f41dee7aa"}}]
+1536205769671	Marionette	TRACE	0 -> [0,28,"WebDriver:ElementClear",{"id":"5073410f-eeff-4176-8bec-477f41dee7aa"}]
+1536205769674	Marionette	TRACE	0 <- [1,28,null,{"value":null}]
+1536205769677	Marionette	TRACE	0 -> [0,29,"WebDriver:ElementSendKeys",{"id":"5073410f-eeff-4176-8bec-477f41dee7aa","text":"9999","value":["9","9","9","9"]}]
+1536205769709	Marionette	TRACE	0 <- [1,29,null,{"value":null}]
+1536205774713	Marionette	TRACE	0 -> [0,30,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1536205774714	Marionette	INFO	Stopped listening on port 7231
+1536205775005	Marionette	TRACE	0 <- [1,30,null,{"cause":"shutdown"}]
+1536205775047	Marionette	TRACE	0 -> [0,31,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1536205775048	Marionette	TRACE	0 <- [1,31,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDrive ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+[Child 5904, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1536205775079	Marionette	DEBUG	Closed connection 0
+[Child 7808, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7808, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7604, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1536205775311	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1536205775311	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1536205775311	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1536205775311	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1536205775311	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1536205775312	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1536205775312	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1536205775312	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1536205775312	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1536205775312	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1536205775313	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1536205775313	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1536205775313	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1536205775313	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1536205775314	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1536205775314	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1536205775314	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1536205775314	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1536205775314	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1536205775314	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1536205775314	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1536205775314	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1536205775314	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1536205775315	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1536205775315	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1536205775315	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1536205775315	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1536205775315	Marionette	DEBUG	Remote service is inactive
+[GPU 1240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536205776563	geckodriver	INFO	geckodriver 0.21.0
+1536205776592	geckodriver	INFO	Listening on 127.0.0.1:7345
+1536205779631	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\THINK\\AppData\\Local\\Temp\\rust_mozprofile.nimhKDRKg8Q9"
+1536205780495	Marionette	DEBUG	Received observer notification profile-after-change
+1536205780623	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1536205780688	Marionette	DEBUG	Received observer notification command-line-startup
+1536205780689	Marionette	DEBUG	Received observer notification nsPref:changed
+1536205780689	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1536205780895	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1536205782154	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1536205782154	Marionette	DEBUG	Waiting for delayed startup...
+1536205782267	Marionette	DEBUG	Waiting for startup tests...
+1536205782267	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1536205782267	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1536205782268	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1536205782268	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1536205782269	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1536205782269	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1536205782270	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1536205782270	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1536205782270	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1536205782270	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1536205782270	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1536205782271	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1536205782271	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1536205782271	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1536205782271	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1536205782271	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1536205782271	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1536205782271	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1536205782272	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1536205782272	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1536205782272	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1536205782272	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1536205782272	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1536205782272	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1536205782273	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1536205782273	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1536205782341	Marionette	INFO	Listening on port 7353
+1536205782342	Marionette	DEBUG	Remote service is active
+1536205782424	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:7364
+1536205782434	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1536205782435	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536205782513	Marionette	DEBUG	[6442450945] Frame script loaded
+1536205782533	Marionette	DEBUG	[6442450945] Frame script registered
+1536205782542	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"365cee0a-7c07-4a28-bf62-400717aa3ada","capabilities":{"browserName":"firefox","browserVersion":"63.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1536205782572	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1"}]
+1536205782594	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536205782699	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205783649	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205784428	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205784429	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1536205785433	Marionette	TRACE	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":".industry-01"}]
+1536205785437	Marionette	TRACE	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"87bbf082-08af-4bd4-beb8-10327e8aa233"}}]
+1536205785440	Marionette	TRACE	0 -> [0,4,"WebDriver:ElementClick",{"id":"87bbf082-08af-4bd4-beb8-10327e8aa233"}]
+1536205785462	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205785643	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+1536205785644	Marionette	DEBUG	[6442450945] Received DOM event unload for http://web.zhsmjxc.com/UCenter-webapp/Login/choosePV.htm?productversion=1
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205785898	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205785926	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205785927	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205785927	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1536205786034	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205786035	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1536205787040	Marionette	TRACE	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":".role-01"}]
+1536205787042	Marionette	TRACE	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e350cc8a-38fa-49e0-8f8e-c40ee4859300"}}]
+1536205787045	Marionette	TRACE	0 -> [0,6,"WebDriver:ElementClick",{"id":"e350cc8a-38fa-49e0-8f8e-c40ee4859300"}]
+1536205787062	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205787606	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+1536205787609	Marionette	DEBUG	[6442450945] Received DOM event unload for http://web.zhsmjxc.com/UCenter-webapp/Login/chooseIndutry.htm?productversion=1&industry=1
+JavaScript error: http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo, line 1508: TypeError: Report.Register is not a function
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205787983	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 2793: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7694: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7749: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7796: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/common/wbill_common.js?version=5.6.0.201809040351, line 7846: unreachable code after return statement
+JavaScript warning: https://cdn.zhsmjxc.com/CDN/UCenter-webapp/js/filter/filter.js, line 11: unreachable code after return statement
+1536205789395	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://web.zhsmjxc.com/UCenter-webapp/index/init.htm?loginType=demo
+1536205789397	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1536205789410	Marionette	TRACE	0 -> [0,7,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/div[25]/div/div/div/a"}]
+1536205789437	Marionette	TRACE	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c1db6f96-fa56-44ff-861b-4f106948e1ee"}}]
+1536205789447	Marionette	TRACE	0 -> [0,8,"WebDriver:ElementClick",{"id":"c1db6f96-fa56-44ff-861b-4f106948e1ee"}]
+1536205789697	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536205789698	Marionette	TRACE	0 <- [1,8,null,{"value":null}]
+1536205790712	Marionette	TRACE	0 -> [0,9,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/table/tbody/tr/td[1]/div/ul/li[3]/a"}]
+1536205790714	Marionette	TRACE	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"442341e2-f5aa-4548-b2d0-968f7811d7fb"}}]
+1536205790718	Marionette	TRACE	0 -> [0,10,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":250,"origin":{"element-6066-11e4-a52e-4f735466cecf":"442 ... "parameters":{"pointerType":"mouse"},"type":"pointer"},{"actions":[{"duration":0,"type":"pause"}],"id":"key","type":"key"}]}]
+1536205791074	Marionette	TRACE	0 <- [1,10,null,{"value":null}]
+1536205792077	Marionette	TRACE	0 -> [0,11,"WebDriver:FindElement",{"using":"css selector","value":"#secondmenu3 > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"}]
+1536205792080	Marionette	TRACE	0 <- [1,11,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"df1dbb47-e5c3-43ae-965f-909c5f8bd2c1"}}]
+1536205792083	Marionette	TRACE	0 -> [0,12,"WebDriver:ElementClick",{"id":"df1dbb47-e5c3-43ae-965f-909c5f8bd2c1"}]
+1536205792507	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536205792508	Marionette	TRACE	0 <- [1,12,null,{"value":null}]
+1536205797513	Marionette	TRACE	0 -> [0,13,"WebDriver:FindElement",{"using":"xpath","value":"//iframe[contains(@src,'List')]"}]
+1536205797525	Marionette	TRACE	0 <- [1,13,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7739cc73-1211-4acd-8171-143c886a46da"}}]
+1536205797528	Marionette	TRACE	0 -> [0,14,"WebDriver:SwitchToFrame",{"element":"7739cc73-1211-4acd-8171-143c886a46da"}]
+1536205797533	Marionette	TRACE	0 <- [1,14,null,{"value":null}]
+1536205797536	Marionette	TRACE	0 -> [0,15,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"keyword\"]"}]
+1536205797539	Marionette	TRACE	0 <- [1,15,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"65235eae-0578-4ebe-8e33-998d7eda133f"}}]
+1536205797542	Marionette	TRACE	0 -> [0,16,"WebDriver:ElementSendKeys",{"id":"65235eae-0578-4ebe-8e33-998d7eda133f","text":"盛唐酒店","value":["盛","唐","酒","店"]}]
+1536205797568	Marionette	TRACE	0 <- [1,16,null,{"value":null}]
+1536205797571	Marionette	TRACE	0 -> [0,17,"WebDriver:FindElement",{"using":"css selector","value":"#searchDiv > a:nth-child(2)"}]
+1536205797576	Marionette	TRACE	0 <- [1,17,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"66a6b037-12d2-4089-901d-231620da7a32"}}]
+1536205797580	Marionette	TRACE	0 -> [0,18,"WebDriver:ElementClick",{"id":"66a6b037-12d2-4089-901d-231620da7a32"}]
+1536205797971	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536205797972	Marionette	TRACE	0 <- [1,18,null,{"value":null}]
+1536205808981	Marionette	TRACE	0 -> [0,19,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1536205808982	Marionette	INFO	Stopped listening on port 7353
+1536205809255	Marionette	TRACE	0 <- [1,19,null,{"cause":"shutdown"}]
+1536205809299	Marionette	TRACE	0 -> [0,20,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1536205809299	Marionette	TRACE	0 <- [1,20,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDrive ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1536205809320	Marionette	DEBUG	Closed connection 0
+[Child 9192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1536205809551	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1536205809551	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1536205809551	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1536205809552	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1536205809552	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1536205809553	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1536205809553	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1536205809553	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1536205809553	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1536205809554	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1536205809554	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1536205809554	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1536205809554	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1536205809555	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1536205809555	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1536205809555	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1536205809555	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1536205809555	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1536205809555	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1536205809555	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1536205809555	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1536205809555	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1536205809556	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1536205809556	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1536205809556	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1536205809556	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1536205809556	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1536205809556	Marionette	DEBUG	Remote service is inactive
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 11816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
