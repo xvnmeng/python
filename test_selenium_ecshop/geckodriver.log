@@ -353,3 +353,68 @@ Unable to read VR Path Registry from C:\Users\THINK\AppData\Local\openvr\openvrp
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
 Unable to read VR Path Registry from C:\Users\THINK\AppData\Local\openvr\openvrpaths.vrpath
 [GPU 11288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1536251794874	geckodriver	INFO	geckodriver 0.21.0
+1536251794906	geckodriver	INFO	Listening on 127.0.0.1:50737
+1536251795824	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CpOjkoOrxEqR"
+
+(firefox:9082): Gtk-WARNING **: 00:36:37.013: Theme parsing error: gtk.css:4351:28: 'none' is not a valid color name
+
+(/usr/lib/firefox/firefox:9202): Gtk-WARNING **: 00:36:45.311: Theme parsing error: gtk.css:4351:28: 'none' is not a valid color name
+
+(/usr/lib/firefox/firefox:9239): Gtk-WARNING **: 00:36:46.107: Theme parsing error: gtk.css:4351:28: 'none' is not a valid color name
+1536251807649	Marionette	INFO	Listening on port 42091
+1536251807681	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:9082): Gtk-WARNING **: 00:36:49.528: Error loading theme icon 'dialog-warning' for stock: 图标“dialog-warning”未在主题 macOS11 中出现
+[Parent 9082, Gecko_IOThread] WARNING: pipe error (62): 连接被对方重设: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536251814473	geckodriver	INFO	geckodriver 0.21.0
+1536251814478	geckodriver	INFO	Listening on 127.0.0.1:34117
+1536251815482	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.71XvRLJ1A87p"
+
+(firefox:9401): Gtk-WARNING **: 00:36:55.743: Theme parsing error: gtk.css:4351:28: 'none' is not a valid color name
+
+(/usr/lib/firefox/firefox:9484): Gtk-WARNING **: 00:36:57.976: Theme parsing error: gtk.css:4351:28: 'none' is not a valid color name
+1536251818466	Marionette	INFO	Listening on port 39475
+1536251818502	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:9401): Gtk-WARNING **: 00:36:58.706: Error loading theme icon 'dialog-warning' for stock: 图标“dialog-warning”未在主题 macOS11 中出现
+
+(/usr/lib/firefox/firefox:9596): Gtk-WARNING **: 00:36:58.939: Theme parsing error: gtk.css:4351:28: 'none' is not a valid color name
+[Parent 9401, Gecko_IOThread] WARNING: pipe error (74): 连接被对方重设: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536251822528	geckodriver	INFO	geckodriver 0.21.0
+1536251822535	geckodriver	INFO	Listening on 127.0.0.1:50253
+1536251823540	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.miO3GPrSV59p"
+
+(firefox:9671): Gtk-WARNING **: 00:37:03.596: Theme parsing error: gtk.css:4351:28: 'none' is not a valid color name
+
+(/usr/lib/firefox/firefox:9754): Gtk-WARNING **: 00:37:05.744: Theme parsing error: gtk.css:4351:28: 'none' is not a valid color name
+1536251826276	Marionette	INFO	Listening on port 39763
+1536251826353	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:9671): Gtk-WARNING **: 00:37:06.607: Error loading theme icon 'dialog-warning' for stock: 图标“dialog-warning”未在主题 macOS11 中出现
+
+(/usr/lib/firefox/firefox:9874): Gtk-WARNING **: 00:37:06.777: Theme parsing error: gtk.css:4351:28: 'none' is not a valid color name
+[Parent 9671, Gecko_IOThread] WARNING: pipe error (71): 连接被对方重设: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536251829739	geckodriver	INFO	geckodriver 0.21.0
+1536251829745	geckodriver	INFO	Listening on 127.0.0.1:52217
+1536251830750	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yDfTQZBDNmwt"
+
+(firefox:9949): Gtk-WARNING **: 00:37:10.923: Theme parsing error: gtk.css:4351:28: 'none' is not a valid color name
+
+(/usr/lib/firefox/firefox:10028): Gtk-WARNING **: 00:37:13.325: Theme parsing error: gtk.css:4351:28: 'none' is not a valid color name
+1536251833872	Marionette	INFO	Listening on port 46697
+1536251833964	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:9949): Gtk-WARNING **: 00:37:14.227: Error loading theme icon 'dialog-warning' for stock: 图标“dialog-warning”未在主题 macOS11 中出现
+
+(/usr/lib/firefox/firefox:10155): Gtk-WARNING **: 00:37:14.309: Theme parsing error: gtk.css:4351:28: 'none' is not a valid color name
+[Parent 9949, Gecko_IOThread] WARNING: pipe error (72): 连接被对方重设: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536251837402	geckodriver	INFO	geckodriver 0.21.0
+1536251837408	geckodriver	INFO	Listening on 127.0.0.1:48369
+1536251838414	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tRzkmeBidRh6"
+
+(firefox:10229): Gtk-WARNING **: 00:37:18.466: Theme parsing error: gtk.css:4351:28: 'none' is not a valid color name

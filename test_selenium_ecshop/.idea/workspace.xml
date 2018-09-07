@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75a19d46-dbff-499f-a88a-04d4adf38083" name="Default Changelist" comment="8/23的更新">
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/.idea/zhihuishangmao.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/auto_driver/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/auto_driver/auto_driver_001.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/data/add_classify" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/data/customer_massege" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/data/del_classify" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/data/filter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/data/more_customer_massege.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/data/search_customer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/data/search_supplier" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/data/supplier_massege" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/page/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/page/base_massege.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/page/base_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/page/test_can_use.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/test_case/test_test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/test_case/test_test/test_base_massege.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/test_case/test_test/test_search_customer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/test_runner/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/test_runner/html_test_runner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/test_runner/test_runner_login_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/test_suite/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhihuishangmao/test_suite/test_suite_001.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test_selenium_ecshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test_selenium_ecshop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_driveer/auto_driver_002_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_driveer/auto_driver_002_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_driveer/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/auto_driveer/geckodriver.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,62 +77,44 @@
     <session id="1783636526">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="add_classify" value="17" />
-          <entry key="csv" value="302" />
-          <entry key="customer_massege" value="128" />
-          <entry key="del_classify" value="7" />
-          <entry key="dummy" value="75" />
-          <entry key="filter" value="45" />
-          <entry key="py" value="7290" />
-          <entry key="search_customer" value="12" />
-          <entry key="search_supplier" value="22" />
-          <entry key="supplier_massege" value="4" />
+          <entry key="csv" value="252" />
+          <entry key="dummy" value="38" />
+          <entry key="py" value="4331" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSV" value="449" />
-          <entry key="PLAIN_TEXT" value="180" />
-          <entry key="Python" value="7290" />
+          <entry key="CSV" value="179" />
+          <entry key="PLAIN_TEXT" value="128" />
+          <entry key="Python" value="4331" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="add_classify" value="1" />
-          <entry key="csv" value="15" />
-          <entry key="customer_massege" value="3" />
-          <entry key="del_classify" value="1" />
-          <entry key="filter" value="1" />
-          <entry key="html" value="3" />
+          <entry key="csv" value="10" />
+          <entry key="html" value="2" />
           <entry key="log" value="5" />
-          <entry key="more_massege" value="1" />
-          <entry key="py" value="129" />
-          <entry key="search_customer" value="3" />
-          <entry key="search_massege" value="1" />
-          <entry key="search_supplier" value="2" />
-          <entry key="supplier_massege" value="2" />
-          <entry key="txt" value="3" />
+          <entry key="py" value="84" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="24" />
-          <entry key="HTML" value="3" />
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="129" />
+          <entry key="CSV" value="5" />
+          <entry key="HTML" value="2" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Python" value="84" />
         </counts>
       </usages-collector>
     </session>
@@ -170,58 +125,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zhihuishangmao/test_case/test_test/test_search_customer.py">
+        <entry file="file://$PROJECT_DIR$/auto_driveer/auto_driver_003_common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+            <state>
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
               <folding>
-                <element signature="e#61#76#0" expanded="true" />
+                <element signature="e#360#871#0" />
+                <element signature="e#963#2240#0" />
+                <element signature="e#2292#2848#0" />
+                <element signature="e#2912#3444#0" />
+                <element signature="e#3500#3858#0" />
+                <element signature="e#3963#4943#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto_driveer/auto_driver_001.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="19" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../zhihuishangmao/main.py">
+        <entry file="file://$PROJECT_DIR$/auto_driveer/auto_driver_002_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="e#241#250#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zhihuishangmao/test_runner/test_runner_login_01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-72">
-              <caret line="104" column="41" lean-forward="true" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zhihuishangmao/page/base_massege.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
-              <folding>
-                <element signature="e#122#144#0" expanded="true" />
-                <marker date="1536201355283" expanded="true" signature="507:515" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zhihuishangmao/test_case/test_test/test_base_massege.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
-              <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-              <folding>
-                <element signature="e#61#76#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -249,6 +184,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/test_case/test_01.py" />
+        <option value="$PROJECT_DIR$/venv/1111.py" />
+        <option value="$PROJECT_DIR$/venv/222.py" />
+        <option value="$PROJECT_DIR$/venv/333.py" />
+        <option value="$PROJECT_DIR$/venv/444.py" />
+        <option value="$PROJECT_DIR$/venv/test_case_login_new.py" />
+        <option value="$PROJECT_DIR$/auto_driver/auto_driver_001.py" />
+        <option value="$PROJECT_DIR$/page/sub_page.py" />
+        <option value="$PROJECT_DIR$/auto_driveer/auto_driver_004_model.py" />
+        <option value="$PROJECT_DIR$/auto_driveer/auto_driver_001.py" />
+        <option value="$PROJECT_DIR$/data_file/test.txt" />
+        <option value="$PROJECT_DIR$/test_case/identity_code_pass.py" />
+        <option value="$PROJECT_DIR$/data_file/username.csv" />
+        <option value="$PROJECT_DIR$/main1.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/test_suite/test_suite_007.py" />
         <option value="$PROJECT_DIR$/data/username.csv" />
@@ -275,36 +224,12 @@
         <option value="$PROJECT_DIR$/test_case/test_test/test_case_001_login.py" />
         <option value="$PROJECT_DIR$/test_runner/test_runner_login_01.py" />
         <option value="$PROJECT_DIR$/auto_driveer/auto_driver_002_login.py" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/test_case/test_test/base_message.py" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/data/customer_message.csv" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/data/supplier_massege" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/data/add_classify" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/data/del_classify" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/data/search_customer" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/data/search_supplier" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/data/filter" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/page/sidebar.py" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/test_case/test_test/base_page.py" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/test_case/test_test/base_massege.py" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/test_suite/test_suite_001.py" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/data/more_massege" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/data/more_customer_massege.csv" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/data/customer_massege" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/page/test_can_use.py" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/page/base_massege.py" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/auto_driver/auto_driver_001.py" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/page/base_page.py" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/test_case/test_test/search_customer.py" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/main.py" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/test_case/test_test/tets_search_customer.py" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/test_runner/test_runner_login_01.py" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/test_case/test_test/test_search_customer.py" />
-        <option value="$PROJECT_DIR$/../zhihuishangmao/test_case/test_test/test_base_massege.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="87" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1250" />
     <option name="height" value="820" />
   </component>
@@ -339,43 +264,17 @@
           <expand>
             <path>
               <item name="test_selenium_ecshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhihuishangmao" type="462c0819:PsiDirectoryNode" />
+              <item name="test_selenium_ecshop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test_selenium_ecshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhihuishangmao" type="462c0819:PsiDirectoryNode" />
-              <item name="auto_driver" type="462c0819:PsiDirectoryNode" />
+              <item name="test_selenium_ecshop" type="462c0819:PsiDirectoryNode" />
+              <item name="auto_driveer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test_selenium_ecshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhihuishangmao" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_selenium_ecshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhihuishangmao" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_selenium_ecshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhihuishangmao" type="462c0819:PsiDirectoryNode" />
+              <item name="test_selenium_ecshop" type="462c0819:PsiDirectoryNode" />
               <item name="test_case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_selenium_ecshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhihuishangmao" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-              <item name="test_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_selenium_ecshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhihuishangmao" type="462c0819:PsiDirectoryNode" />
-              <item name="test_runner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_selenium_ecshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhihuishangmao" type="462c0819:PsiDirectoryNode" />
-              <item name="test_suite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -388,13 +287,12 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\python\zhihuishangmao\test_runner" />
-      <recent name="D:\code\python\test_selenium_ecshop\test_case\test_test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\python\test_selenium_ecshop\auto_driveer" />
       <recent name="D:\code\python\test_selenium_ecshop" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\python\test_selenium_ecshop\test_case\test_test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -409,20 +307,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
-    <configuration name="auto_driver_001" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="zhihuishangmao" />
+  <component name="RunManager" selected="Python.auto_driver_002_login">
+    <configuration name="auto_driver_002_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test_selenium_ecshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../zhihuishangmao/auto_driver" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/auto_driveer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../zhihuishangmao/auto_driver/auto_driver_001.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auto_driveer/auto_driver_002_login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -431,19 +329,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="zhihuishangmao" />
+    <configuration name="delivery_address_003" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test_selenium_ecshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../zhihuishangmao" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../zhihuishangmao/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page/delivery_address_003.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -452,19 +350,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_can_use" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="zhihuishangmao" />
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test_selenium_ecshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../zhihuishangmao/page" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../zhihuishangmao/page/test_can_use.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -473,48 +371,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_base_massege.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="zhihuishangmao" />
+    <configuration name="Unittests in test_case_004_message.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="test_selenium_ecshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../zhihuishangmao/test_case/test_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/../zhihuishangmao/test_case/test_test/test_base_massege.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/test_case_004_message.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_search_customer.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="zhihuishangmao" />
+    <configuration name="Unittests in test_case_006_modify_addr.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="test_selenium_ecshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../zhihuishangmao/test_case/test_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/../zhihuishangmao/test_case/test_test/test_search_customer.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/test_case_006_modify_addr.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test_can_use" />
-      <item itemvalue="Python.main (1)" />
-      <item itemvalue="Python tests.Unittests in test_base_massege.py" />
-      <item itemvalue="Python tests.Unittests in test_search_customer.py" />
-      <item itemvalue="Python.auto_driver_001" />
+      <item itemvalue="Python tests.Unittests in test_case_004_message.py" />
+      <item itemvalue="Python tests.Unittests in test_case_006_modify_addr.py" />
+      <item itemvalue="Python.delivery_address_003" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.auto_driver_002_login" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python tests.Unittests in test_search_customer.py" />
-        <item itemvalue="Python tests.Unittests in test_base_massege.py" />
-        <item itemvalue="Python.auto_driver_001" />
-        <item itemvalue="Python.test_can_use" />
+        <item itemvalue="Python.auto_driver_002_login" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.Unittests in test_case_006_modify_addr.py" />
+        <item itemvalue="Python.delivery_address_003" />
+        <item itemvalue="Python tests.Unittests in test_case_004_message.py" />
       </list>
     </recent_temporary>
   </component>
@@ -540,35 +438,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_search_customer_py - 2018.09.06 at 10h 46m 35s.xml">
-      <configuration name="Unittests in search_customer.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case_005_recharge_py - 2018.08.23 at 14h 56m 44s.xml">
+      <configuration name="Unittests in test_case_005_recharge.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_search_customer_py - 2018.09.06 at 10h 49m 30s.xml">
-      <configuration name="Unittests in search_customer.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case_004_message_py - 2018.08.23 at 15h 02m 40s.xml">
+      <configuration name="Unittests in test_case_004_message.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_search_customer_py - 2018.09.06 at 10h 51m 14s.xml">
-      <configuration name="Unittests in search_customer.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case_006_modify_addr_py - 2018.08.23 at 15h 10m 53s.xml">
+      <configuration name="Unittests in test_case_006_modify_addr.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_base_massege_py - 2018.09.06 at 10h 52m 17s.xml">
-      <configuration name="Unittests in test_base_massege.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case_006_modify_addr_py - 2018.08.23 at 15h 13m 56s.xml">
+      <configuration name="Unittests in test_case_006_modify_addr.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_search_customer_py - 2018.09.06 at 10h 54m 57s.xml">
-      <configuration name="Unittests in search_customer.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case_006_modify_addr_py - 2018.08.23 at 15h 14m 27s.xml">
+      <configuration name="Unittests in test_case_006_modify_addr.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_search_customer_py - 2018.09.06 at 10h 58m 37s.xml">
-      <configuration name="Unittests in search_customer.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case_006_modify_addr_py - 2018.08.23 at 15h 23m 03s.xml">
+      <configuration name="Unittests in test_case_006_modify_addr.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_search_customer_py - 2018.09.06 at 11h 02m 10s.xml">
-      <configuration name="Unittests in search_customer.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case_006_modify_addr_py - 2018.08.23 at 15h 25m 12s.xml">
+      <configuration name="Unittests in test_case_006_modify_addr.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_search_customer_py - 2018.09.06 at 11h 03m 10s.xml">
-      <configuration name="Unittests in search_customer.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case_006_modify_addr_py - 2018.08.23 at 15h 26m 07s.xml">
+      <configuration name="Unittests in test_case_006_modify_addr.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_search_customer_py - 2018.09.06 at 11h 04m 35s.xml">
-      <configuration name="Unittests in search_customer.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case_006_modify_addr_py - 2018.08.23 at 15h 27m 05s.xml">
+      <configuration name="Unittests in test_case_006_modify_addr.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_search_customer_py - 2018.09.06 at 11h 06m 19s.xml">
-      <configuration name="Unittests in search_customer.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case_006_modify_addr_py - 2018.08.23 at 15h 28m 59s.xml">
+      <configuration name="Unittests in test_case_006_modify_addr.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -581,19 +479,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="87" y="0" width="1250" height="820" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32953104" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1839934" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18441065" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.24968314" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49936628" weight="0.32884097" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50126743" side_tool="true" weight="0.36927223" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32884097" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32614556" />
-      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32798833" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49873257" visible="true" weight="0.36734694" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="5" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49873257" weight="0.36927223" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -604,15 +501,15 @@
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32953104" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1839934" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1818758" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.24968314" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49936628" weight="0.32884097" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50126743" side_tool="true" weight="0.36927223" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32884097" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32614556" />
-      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32798833" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49873257" visible="true" weight="0.36734694" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49873257" visible="true" weight="0.36927223" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -640,125 +537,120 @@
     <option name="LAST_COMMIT_MESSAGE" value="8/23的更新" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/page/recharge_005.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-259635143/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="2970">
+          <caret line="5202" column="34" lean-forward="true" selection-start-line="5202" selection-start-column="34" selection-end-line="5202" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_case_005_recharge.py">
+    <entry file="file://$PROJECT_DIR$/auto_driveer/auto_driver_004_model.py" />
+    <entry file="file://$PROJECT_DIR$/auto_driveer/geckodriver.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
+        <state relative-caret-position="-2652" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_case_004_message.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="54" column="42" lean-forward="true" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/my_message_004.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/delivery_address_003.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-167">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reports/2018-08-23_15_36_57result.html">
+    <entry file="file://$PROJECT_DIR$/page/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/reports/2018-08-23_15_34_29result.html">
+    <entry file="file://$PROJECT_DIR$/auto_driveer/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/geckodriver.log">
+    <entry file="file://$PROJECT_DIR$/test_case/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/exercise.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/a.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3680">
-          <caret line="121" column="22" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
+        <state relative-caret-position="383">
+          <caret line="39" column="15" lean-forward="true" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_test/test_case_001_login.py">
+    <entry file="file://$PROJECT_DIR$/test_case/test_case_little_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="346">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_case_006_modify_addr.py">
+    <entry file="file://$PROJECT_DIR$/test_case_001.py" />
+    <entry file="file://$PROJECT_DIR$/test_case_little_test_function.py" />
+    <entry file="file://$PROJECT_DIR$/venv/test_case_login_new.py" />
+    <entry file="file://$PROJECT_DIR$/auto_driveer/identity_code_pass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="22" lean-forward="true" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+        <state relative-caret-position="341">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_case_003_user_massage.py">
+    <entry file="file://$PROJECT_DIR$/test_suite/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_test/geckodriver.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="70" column="13" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="70" selection-end-column="13" />
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto_driveer/auto_driver_002_login.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/smtplib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="12036">
+          <caret line="719" selection-start-line="719" selection-end-line="719" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_runner/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_runner/html_test_runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="-1615">
           <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/test_runner/html_test_runner.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_runner/test_runner_login_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
-          <caret line="104" column="41" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_suite/test_suite_007.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="255">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/data/customer_message.csv" />
-    <entry file="file://$PROJECT_DIR$/auto_driveer/identity_code_pass.py">
+    <entry file="file://$PROJECT_DIR$/test_case/test_case_little_regin_order.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_case_007_mudel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="12">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#62#77#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto_driveer/auto_driver_003_common.py">
+    <entry file="file://$PROJECT_DIR$/data/username.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/address.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -783,218 +675,207 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/data/add_classify">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/data/del_classify">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/data/filter">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_case_002_reginster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="91" column="22" lean-forward="true" selection-start-line="10" selection-end-line="91" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/user_central_001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/test_suite/test_suite_001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/data/search_customer">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/data/search_supplier">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/data/supplier_massege">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="66" selection-start-column="66" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/base_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/selenium/webdriver/common/action_chains.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4882">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="600" selection-start-line="600" selection-end-line="600" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/data/more_customer_massege.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto_driveer/auto_driver_001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="47" column="54" lean-forward="true" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/page/test_can_use.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/data/customer_massege">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/test_case/test_test/search_customer">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/page/base_massege.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="139">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
-            <element signature="e#122#144#0" expanded="true" />
-            <marker date="1536201355283" expanded="true" signature="507:515" ph="..." />
+            <element signature="e#90#112#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/auto_driver/auto_driver_001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#60#90#0" expanded="true" />
-            <marker date="1536202145995" expanded="true" signature="570:693" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/page/base_page.py">
+    <entry file="file://$PROJECT_DIR$/page/user_message_002.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
-          <caret line="54" column="78" selection-start-line="54" selection-start-column="78" selection-end-line="54" selection-end-column="78" />
+          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
           <folding>
-            <element signature="e#61#83#0" expanded="true" />
-            <marker date="1536203040425" expanded="true" signature="163:559" ph="..." />
-            <marker date="1536203040425" expanded="true" signature="1274:1460" ph="..." />
+            <element signature="e#62#114#0" expanded="true" />
+            <marker date="1535005994705" expanded="true" signature="292:293" ph="..." />
+            <marker date="1535005994705" expanded="true" signature="292:297" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/test_case/test_case_005_recharge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="e#63#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/reports/2018-09-06_11_35_54result.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_case_001_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="260">
+          <caret line="54" column="41" lean-forward="true" selection-end-line="54" selection-end-column="41" />
           <folding>
             <element signature="e#62#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/test_case/test_test/test_search_customer.py">
+    <entry file="file://$PROJECT_DIR$/page/recharge_005.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        <state relative-caret-position="192">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_case_005_recharge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
-            <element signature="e#61#76#0" expanded="true" />
+            <element signature="e#62#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/test_runner/test_runner_login_01.py">
+    <entry file="file://$PROJECT_DIR$/test_case/test_case_004_message.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="104" column="41" lean-forward="true" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/test_case/test_test/test_base_massege.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        <state relative-caret-position="260">
+          <caret line="54" column="42" lean-forward="true" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
           <folding>
-            <element signature="e#61#76#0" expanded="true" />
+            <element signature="e#63#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zhihuishangmao/main.py">
+    <entry file="file://$PROJECT_DIR$/page/my_message_004.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="141">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/user_central_001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding>
-            <element signature="e#241#250#0" expanded="true" />
+            <element signature="e#62#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/delivery_address_003.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding>
+            <element signature="e#62#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/2018-08-23_15_36_57result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/2018-08-23_15_34_29result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_case_001_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="e#62#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_runner/test_runner_login_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="104" column="41" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3680">
+          <caret line="121" column="22" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_test/test_case_001_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#62#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/address.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_case_006_modify_addr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="22" lean-forward="true" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#63#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_case_002_reginster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="60" column="18" lean-forward="true" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+          <folding>
+            <element signature="e#124#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_case_003_user_massage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="70" column="13" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="70" selection-end-column="13" />
+          <folding>
+            <element signature="e#62#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_driveer/auto_driver_001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_driveer/auto_driver_003_common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="e#360#871#0" />
+            <element signature="e#963#2240#0" />
+            <element signature="e#2292#2848#0" />
+            <element signature="e#2912#3444#0" />
+            <element signature="e#3500#3858#0" />
+            <element signature="e#3963#4943#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_driveer/auto_driver_002_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
