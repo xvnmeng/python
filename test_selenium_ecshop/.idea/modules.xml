@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/test_selenium_ecshop.iml" filepath="$PROJECT_DIR$/.idea/test_selenium_ecshop.iml" />
       <module fileurl="file://$PROJECT_DIR$/../zhihuishangmao/.idea/zhihuishangmao.iml" filepath="$PROJECT_DIR$/../zhihuishangmao/.idea/zhihuishangmao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../练习/.idea/练习.iml" filepath="$PROJECT_DIR$/../练习/.idea/练习.iml" />
     </modules>
   </component>
 </project>
