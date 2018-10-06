@@ -7,7 +7,7 @@ from email.header import Header
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from test_runner.html_test_runner import HTMLTestRunner
+from test_selenium_ecshop.test_runner.html_test_runner import HTMLTestRunner
 
 
 '''
@@ -103,11 +103,13 @@ if __name__ == '__main__':
     # test_dir_login = r'D:\code\python\test_selenium_ecshop\test_case\test_test'
 
     # 测试test_case的文件    此文件下的都会执行，包括自己文件夹
-    test_dir_login = r'D:\code\python\test_selenium_ecshop\test_case'
+    # test_dir_login = r'D:\code\python\test_selenium_ecshop\test_case'
+    test_dir_login = r'../test_selenium_ecshop/test_case'
 
 
-    # 指定测试报告目录
-    test_report_login = r'D:\code\python\test_selenium_ecshop\reports'
+
+    # 指定测试报告目录 使用相对路径，方便不同平台，不同开发者使用
+    test_report_login = r'../test_selenium_ecshop/reports'
 
     discover_login = unittest.defaultTestLoader.discover(test_dir_login, pattern='test*.py')
 

@@ -11,7 +11,7 @@ from time import sleep
 
 from selenium.webdriver.support.select import Select
 
-from auto_driveer.auto_driver_001 import AutoDriver001
+from test_selenium_ecshop.auto_driveer.auto_driver_001 import AutoDriver001
 
 
 class BasePage(object):

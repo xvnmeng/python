@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectModuleManager">
@@ -7,4 +8,13 @@
       <module fileurl="file://$PROJECT_DIR$/../练习/.idea/练习.iml" filepath="$PROJECT_DIR$/../练习/.idea/练习.iml" />
     </modules>
   </component>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/test_selenium_ecshop.iml" filepath="$PROJECT_DIR$/.idea/test_selenium_ecshop.iml" />
+    </modules>
+  </component>
+>>>>>>> aa44dcc56f2c4a650759a861d11ac2fb44573a45
 </project>

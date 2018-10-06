@@ -12,8 +12,8 @@ import unittest
 from time import sleep
 import csv
 
-from auto_driveer.auto_driver_001 import AutoDriver001
-from page.user_central_001 import UserCentral01
+from test_selenium_ecshop.auto_driveer.auto_driver_001 import AutoDriver001
+from test_selenium_ecshop.page.user_central_001 import UserCentral01
 
 
 class TestCase001Login(unittest.TestCase):

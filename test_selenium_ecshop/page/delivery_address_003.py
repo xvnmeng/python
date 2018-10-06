@@ -5,9 +5,9 @@
 '''
 from selenium.webdriver.support.select import Select
 
-from auto_driveer.auto_driver_001 import AutoDriver001
+from test_selenium_ecshop.auto_driveer.auto_driver_001 import AutoDriver001
 
-from page.base_page import BasePage
+from test_selenium_ecshop.page.base_page import BasePage
 
 from time import sleep
 

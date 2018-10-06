@@ -3,9 +3,9 @@
 @Time:2018/8/21 16:03
 @Author:xvnmeng
 '''
-from auto_driveer.auto_driver_001 import AutoDriver001
+from test_selenium_ecshop.auto_driveer.auto_driver_001 import AutoDriver001
 
-from page.base_page import BasePage
+from test_selenium_ecshop.page.base_page import BasePage
 
 
 # 创建继承父类BasePage，sub_page是子页面

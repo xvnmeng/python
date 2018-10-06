@@ -1,6 +1,6 @@
 import unittest
 # 测试套件
-from test_case.test_test import test_case_001_login
+from test_selenium_ecshop.test_case.test_test import test_case_001_login
 # from test_case.test_test.test_case_001_login import TestCase001Login
 
 
