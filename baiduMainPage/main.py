@@ -8,7 +8,10 @@ import os
 from time import sleep
 
 def run_test():
-    os.system("python -m test_runner.test_runner_login_01")
+    # os.system("python -m test_runner.test_runner_login_01")
+    # 在python3环境打开，不是在默认python2
+    os.system("python3 -m test_runner.test_runner_login_01")
+
     sleep(10)
     # os.system():意思在于window中打开了cmd命令窗口
     # os.system("python -m test_case.test_case_002_register")
