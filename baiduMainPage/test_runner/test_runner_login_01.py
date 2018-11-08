@@ -108,7 +108,7 @@ if __name__ == '__main__':
 
 
 
-    # 指定测试报告目录 使用相对路径，方便不同平台，不同开发者使用
+    # 指定测试报告目录 使用相对路径，方便不同平台，不同开发者使用.======初学者建议绝对路径
     test_report_login = r'../baidu/baiduMainPage/reports'
 
     discover_login = unittest.defaultTestLoader.discover(test_dir_login, pattern='test*.py')
