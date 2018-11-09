@@ -1,3 +1,0 @@
-利用元素属性定位
-find_element_by_xpath("input[@id='kw']")
-
